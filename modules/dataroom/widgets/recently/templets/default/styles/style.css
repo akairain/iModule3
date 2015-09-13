@@ -1,0 +1,22 @@
+.WidgetDataroomRecentlyDefault {margin-bottom:15px;}
+.WidgetDataroomRecentlyDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333; margin-bottom:5px;}
+.WidgetDataroomRecentlyDefault .contextTitle a {color:#333; text-decoration:none;}
+.WidgetDataroomRecentlyDefault .contextTitle i {color:#df2933; font-size:12px;}
+.WidgetDataroomRecentlyDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.WidgetDataroomRecentlyDefault .listPanel .item {border:3px solid #e5e5e5; margin-bottom:10px;}
+.WidgetDataroomRecentlyDefault .listPanel .item:hover {border-color:#df2933;}
+.WidgetDataroomRecentlyDefault .listPanel .item .logo {display:block; width:100%; padding-bottom:100%; background-size:cover; background-repeat:no-repeat; position:relative; z-index:0;}
+.WidgetDataroomRecentlyDefault .listPanel .item .logo .category {background:#888; padding:4px 6px; position:absolute; white-space:nowrap; max-width:60%; color:#fff; top:10px; left:-3px;}
+.WidgetDataroomRecentlyDefault .listPanel .item .logo .version {font-family:Roboto; color:#fff; background:#df2933; position:absolute; bottom:10px; right:0px; padding:4px 6px;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail {background:#f6f6f6; padding:8px;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail a.title {display:block; height:30px; line-height:30px; font-size:15px; font-weight:bold; white-space:nowrap; text-decoration:none; text-overflow:ellipsis; overflow:hidden; color:#333;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail a.title:hover {color:#df2933;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .description {font-size:12px; color:#999; height:20px; line-height:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count {margin-top:8px; border-top:1px dotted #ccc; padding-top:8px; font-size:14px;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count i {color:#999; display:inline-block; margin-right:5px;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count span {font-family:Roboto; font-weight:bold; display:inline-block; margin-right:10px;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count span.ment {color:#df2933;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count span.download {color:#3498db;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count span.price {float:right; margin-right:0px; color:#000;}
+.WidgetDataroomRecentlyDefault .listPanel .item .detail .count span.price i {color:#000;}

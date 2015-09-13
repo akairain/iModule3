@@ -1,0 +1,8 @@
+{
+	"title":{
+		"ko":"LMS"
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":false
+}

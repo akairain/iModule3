@@ -1,0 +1,8 @@
+{
+	"title":{
+		"ko":"이메일관리"
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":false
+}

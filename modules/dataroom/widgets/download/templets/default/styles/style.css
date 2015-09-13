@@ -1,0 +1,70 @@
+.WidgetDataroomDownloadDefault {margin-bottom:15px;}
+.WidgetDataroomDownloadDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.WidgetDataroomDownloadDefault .contextTitle i {color:#df2933; font-size:12px;}
+.WidgetDataroomDownloadDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.WidgetDataroomDownloadDefault .latest {display:table; width:100%; table-layout:fixed; margin-top:5px;}
+.WidgetDataroomDownloadDefault .latest .info {display:table-cell; width:100%; height:60px; vertical-align:top;}
+.WidgetDataroomDownloadDefault .latest .info .boxDefault {margin-right:5px; height:42px;}
+.WidgetDataroomDownloadDefault .latest .button {display:table-cell; width:240px; height:60px; vertical-align:top;}
+.WidgetDataroomDownloadDefault .latest .button button {border-top:1px solid #ddd; border-right:1px solid #ccc; border-bottom:1px solid #ccc; border-left:1px solid #ddd; padding:8px; width:100%; height:60px; background:#fdfdfd; padding:10px; cursor:pointer;}
+.WidgetDataroomDownloadDefault .latest .button button i {float:left; width:40px; height:40px; line-height:40px; font-size:30px; color:#999; margin-right:10px;}
+.WidgetDataroomDownloadDefault .latest .button button div.text {height:20px; line-height:20px; font-size:15px; color:#333; text-align:left;}
+.WidgetDataroomDownloadDefault .latest .button button div.version {height:15px; line-height:15px; font-family:Roboto, tahoma; font-size:12px; text-align:left;}
+.WidgetDataroomDownloadDefault .latest .button button div.version b {color:#df2933;}
+.WidgetDataroomDownloadDefault .latest .button button div.version .reg_date {color:#999; font-size:11px;}
+.WidgetDataroomDownloadDefault .latest .button button:hover {background:#f4f4f4; border-color:#ccc;}
+.WidgetDataroomDownloadDefault .latest .button button:hover i {color:#df2933;}
+
+.WidgetDataroomDownloadDefault .versionTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; border-top:1px solid #ccc; margin-top:5px;}
+.WidgetDataroomDownloadDefault .versionTable thead tr {height:40px; border-bottom:1px solid #eee;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th div {border-bottom:1px solid #ddd; height:40px; line-height:40px; font-weight:bold; color:#333; margin:0px;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th.title {width:100%; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th.version {Width:60px; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th.size {Width:60px; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th.reg_date {width:120px; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th.hit {width:60px; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable thead tr th.download {width:110px; text-align:center;}
+
+.WidgetDataroomDownloadDefault .versionTable tbody tr {height:30px; border-bottom:1px solid #eee;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td div {white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:30px; line-height:30px; color:#333; font-family:Roboto, defaultFont;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.title {cursor:pointer;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.title:hover {color:#df2933;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.title .fa {color:#df2933; display:inline-block; width:10px; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.title .fa-caret-right {display:inline-block;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.title .fa-caret-down {display:none;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.version {text-align:center; font-family:Roboto, tahoma; font-size:11px;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.size {text-align:right; font-family:Roboto, tahoma; font-size:11px;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.reg_date {font-size:11px; font-family:Roboto, tahoma; text-align:right;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.hit div {font-size:11px; font-family:Roboto, tahoma; text-align:right;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr td.download .btn {width:100px; display:inline-block; height:24px; line-height:24px; padding:0px; margin-left:10px;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle {display:none;}
+
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle .history {list-style:none;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle .history li {line-height:1.8; margin:5px 0px; padding-left:10px;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle .history li span {display:inline-block; width:50px; height:16px; line-height:16px; vertical-align:middle; margin-right:5px; font-family:Roboto, tahoma; font-size:10px; text-align:center;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle .history li span.NEW {background:#e4232c; color:#fff;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle .history li span.UPDATE {background:#2980b9; color:#fff;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.toggle .history li span.BUGFIX {background:#666; color:#fff;}
+
+.WidgetDataroomDownloadDefault .versionTable tbody tr.opened td.title .fa-caret-right {display:none;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.opened td.title .fa-caret-down {display:inline-block;}
+.WidgetDataroomDownloadDefault .versionTable tbody tr.opened + tr.toggle {display:table-row;}
+
+.WidgetDataroomDownloadDefault .boxInfo {margin-top:5px;}
+
+@media (max-width:767px) {
+	.WidgetDataroomDownloadDefault .latest {display:block;}
+	.WidgetDataroomDownloadDefault .latest .info {display:block; margin-top:5px; height:auto;}
+	.WidgetDataroomDownloadDefault .latest .info .boxDefault {height:auto; margin-right:0px;}
+	.WidgetDataroomDownloadDefault .latest .button {display:block; width:auto; margin-top:5px;}
+	
+	.WidgetDataroomDownloadDefault .versionTable .reg_date {display:none;}
+	.WidgetDataroomDownloadDefault .versionTable .hit {width:50px !important;}
+	.WidgetDataroomDownloadDefault .versionTable .download {width:35px !important;}
+	.WidgetDataroomDownloadDefault .versionTable .download button {width:25px !important;}
+	.WidgetDataroomDownloadDefault .versionTable .download button span {display:none;}
+}
+
+div[data-role=modal] .message .title {font-size:15px; font-weight:bold; margin-bottom:10px;}
+div[data-role=modal] .message .price {font-size:14px; font-family:Roboto, tahoma; font-weight:bold; margin-bottom:10px; margin-top:-5px; color:#df2933;}

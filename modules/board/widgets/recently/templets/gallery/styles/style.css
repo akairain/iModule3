@@ -1,0 +1,14 @@
+.WidgetBoardRecentlyGallery {font-size:12px; margin:5px 0px;}
+.WidgetBoardRecentlyGallery .listTitle {display:table; overflow:hidden; margin-bottom:10px;}
+.WidgetBoardRecentlyGallery .listTitle i {display:table-cell; white-space:nowrap; overflow:hidden; color:#e91b23; padding-right:5px;}
+.WidgetBoardRecentlyGallery .listTitle b {display:table-cell; white-space:nowrap; overflow:hidden; font-size:13px; color:#333;}
+.WidgetBoardRecentlyGallery .listTitle b a {color:#333; text-decoration:none;}
+.WidgetBoardRecentlyGallery .listTitle .bar {display:table-cell; width:100%; overflow:hidden; font-size:0px;}
+.WidgetBoardRecentlyGallery .listTitle .bar span {display:block; height:2px; margin:0px 0px 3px 5px; padding:0px; background:#eee;}
+.WidgetBoardRecentlyGallery .frame {display:block; border:1px solid #ccc; overflow:hidden; width:100%; font-size:0px; position:relative;}
+.WidgetBoardRecentlyGallery .frame .photo {width:100%; padding-bottom:75%; background-size:cover; background-position:50% 50%; transition:all 0.1s ease-in;}
+.WidgetBoardRecentlyGallery .frame .text {position:absolute; width:100%; height:30px; left:0px; bottom:0px; background:rgba(0,0,0,0.7); color:#fff; font-size:12px; line-height:30px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; padding:0px 8px; display:none; box-sizing:border-box;}
+.WidgetBoardRecentlyGallery .frame .text span.ment {height:30px; line-height:30px; float:right; display:block; white-space:nowrap; margin-left:5px; font-family:Roboto, defaultFont; font-size:11px; font-weight:bold; color:#e91b23;}
+.WidgetBoardRecentlyGallery .frame .text span.ment:empty {display:none;}
+.WidgetBoardRecentlyGallery .frame:hover .photo {transform:scale(1.3); -ms-transform:scale(1.3); -webkit-transform:scale(1.3); z-index:0;}
+.WidgetBoardRecentlyGallery .frame:hover .text {display:block;}

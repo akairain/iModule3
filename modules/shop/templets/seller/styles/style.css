@@ -1,0 +1,100 @@
+html, body {height:100% !important; padding:0px; margin:0px; font-family:defaultFont; box-sizing:border-box;}
+#iModuleWrapper, .ModuleShopSeller {height:100%;}
+
+.ModuleShopSeller input[type=text], .ModuleShopSeller input[type=password], .ModuleShopSeller input[type=email] {-webkit-appearance:none; background-color:#fff; outline:none; padding:0px 8px; border:1px solid #d9d9d9; border-top:1px solid #c0c0c0; color:#404040; font-size:15px; width:100%; height:40px; box-sizing:border-box; line-height:38px;}
+
+.ModuleShopSeller .login {position:absolute; width:300px; height:300px; top:calc(50% - 150px); left:calc(50% - 150px);}
+.ModuleShopSeller .login h4 {width:100%; display:block; font-family:Roboto; font-size:28px; text-align:center; margin-bottom:20px; font-weight:400;}
+.ModuleShopSeller .login .formBox {background:#f7f7f7; box-shadow:rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px; padding:20px; box-sizing:border-box;}
+.ModuleShopSeller .login .formBox input {font-family:Roboto; display:block; margin-bottom:10px;}
+.ModuleShopSeller .login .formBox button {width:100%; height:40px; border:1px solid #3079ed; color:#fff; text-shadow:0 1px rgba(0,0,0,0.1); background-color:#4d90fe; background-image:-webkit-linear-gradient(top,#4d90fe,#4787ed); background-image:-moz-linear-gradient(top,#4d90fe,#4787ed); background-image:-ms-linear-gradient(top,#4d90fe,#4787ed); background-image:-o-linear-gradient(top,#4d90fe,#4787ed); background-image:linear-gradient(top,#4d90fe,#4787ed);}
+.ModuleShopSeller .login .formBox button:hover {border:1px solid #2f5bb7; background-color:#357ae8; background-image:-webkit-linear-gradient(top,#4d90fe,#357ae8); background-image:-moz-linear-gradient(top,#4d90fe,#357ae8); background-image:-ms-linear-gradient(top,#4d90fe,#357ae8); background-image:-o-linear-gradient(top,#4d90fe,#357ae8); background-image:linear-gradient(top,#4d90fe,#357ae8);}
+.ModuleShopSeller .login ul {padding:0px; margin:0px; list-style:none; display:table; width:100%; table-layout:fixed;}
+.ModuleShopSeller .login ul li {display:table-cell; width:50%; padding:10px 0px;}
+.ModuleShopSeller .login ul li a {color:#427fed; font-size:12px; text-decoration:none;}
+.ModuleShopSeller .login ul li:last-child {text-align:right;}
+
+.ModuleShopSeller .wrapper {display:table; width:100%; min-height:100%; table-layout:fixed;}
+.ModuleShopSeller aside.sidePanel {display:table-cell; background:#4c4a49; width:250px; vertical-align:top;}
+.ModuleShopSeller aside.sidePanel .profile {display:table; width:100%; margin:15px 0px; table-layout:fixed;}
+.ModuleShopSeller aside.sidePanel .profile .image {display:table-cell; width:60px; vertical-align:middle;}
+.ModuleShopSeller aside.sidePanel .profile .image img {border:1px solid #888; width:48px; height:48px; border-radius:50%; margin-left:10px;}
+.ModuleShopSeller aside.sidePanel .profile .info {display:table-cell; width:100%; vertical-align:middle; padding-left:10px;}
+.ModuleShopSeller aside.sidePanel .profile .info .nickname {color:#fff; font-weight:bold; font-size:15px; margin-bottom:5px;}
+.ModuleShopSeller aside.sidePanel .profile .info .link {font-size:0px;}
+.ModuleShopSeller aside.sidePanel .profile .info .link a {display:inline-block; height:24px; background:#3896da; color:#fff; padding:0px 8px; border:0px; border-radius:2px; font-size:11px; margin-right:5px; vertical-align:top; line-height:24px; text-decoration:none;}
+.ModuleShopSeller aside.sidePanel .profile .info .link button {height:24px; background:#3896da; color:#fff; padding:0px 8px; border:0px; border-radius:2px; font-size:11px; margin-right:10px; vertical-align:top;}
+.ModuleShopSeller aside.sidePanel .profile .info .link button.logout {background:#f65756;}
+.ModuleShopSeller aside.sidePanel ul {margin-left:20px; list-style:none;}
+.ModuleShopSeller aside.sidePanel ul li {font-size:13px;}
+.ModuleShopSeller aside.sidePanel ul li a {display:inline-block; height:30px; line-height:30px; text-decoration:none; color:#e4e4e4;}
+.ModuleShopSeller aside.sidePanel ul li a i {width:20px;}
+.ModuleShopSeller aside.sidePanel ul li a:hover {color:#f65756;}
+.ModuleShopSeller aside.sidePanel ul li a:hover i {color:#f65756;}
+.ModuleShopSeller aside.sidePanel ul li .fa-angle-right {float:right; color:#fff; display:none; height:30px; line-height:30px; margin-right:20px; font-size:14px;}
+.ModuleShopSeller aside.sidePanel ul li.selected a {color:#f65756 !important;}
+.ModuleShopSeller aside.sidePanel ul li.selected .fa-angle-right {display:block;}
+
+.ModuleShopSeller section.viewPanel {display:table-cell; background:#eeeeee; width:100%;}
+.ModuleShopSeller section.viewPanel .nbreadcrumb {height:70px; background:#e7e7e7; border-bottom:1px solid #ddd; padding:0px 20px;}
+.ModuleShopSeller section.viewPanel .nbreadcrumb h4 {height:70px; line-height:70px; font-size:15px; display:inline-block; vertical-align:top;}
+
+.ModuleShopSeller section.viewPanel .panelWrapper {padding:20px; max-width:1100px;}
+.ModuleShopSeller section.viewPanel .widgetBox {border:1px solid #d9d9d9; background:#fff; height:100px; box-shadow:1px 1px 2px rgba(0,0,0,0.1);}
+
+.blankSpace {height:15px;}
+
+.formBox .inputBox {padding:5px 0px;}
+.formBox .inputBox .label {font-weight:bold; margin-bottom:5px;}
+.formBox .inputBox .label .required {color:red;}
+.formBox .inputBox .itemImage {font-size:0px; margin-right:-5px;}
+.formBox .inputBox .itemImage:before, .formBox .inputBox .itemImage:after {clear:both; content:""; display:block;}
+.formBox .inputBox .itemImage button {display:block; border:1px solid #ddd; float:left; margin-right:5px; margin-bottom:5px; background-position:50% 50%; background-image:url(../images/add.png); background-size:cover; width:72px; height:72px; background-color:#f4f4f4; text-shadow:0px 1px 2px rgba(255,255,255,0.5); cursor:pointer; padding-top:52px; position:relative;}
+.formBox .inputBox .itemImage button[data-type]:hover {background-color:#e5e5e5;}
+.formBox .inputBox .itemImage button[data-type=default] {width:149px; height:149px; padding-top:105px;}
+.formBox .inputBox .itemImage button[data-type=default] span {display:inline-block; margin:0px auto; padding:5px 10px; background:rgba(0,0,0,0.5); color:#fff;}
+.formBox .inputBox .btn {margin:5px 0px; width:100%;}
+.formBox .splitLine {margin-top:10px; border-top:1px solid #ccc; height:10px;}
+
+.gridWrapper {display:table; width:100%; table-layout:fixed;}
+.gridWrapper .gridSide {Width:100%; display:table-cell; vertical-align:top; margin:10px 0px;}
+.gridWrapper .gridFixedSide {width:190px; display:table-cell; vertical-align:top; margin:10px 0px;}
+.gridWrapper .gridPanel {width:100%; display:table-cell; vertical-align:top; margin:10px 0px;}
+.gridWrapper .gridFixedPanel {width:740px; display:table-cell; vertical-align:top; margin:10px 0px;}
+
+
+.gridBox {background:#fff; box-shadow:1px 1px 2px rgba(0,0,0,0.1);}
+.gridBox .headerPanel {border-bottom:1px solid rgba(0, 0, 0, 0.180392); border-top:1px solid rgba(0, 0, 0, 0.0666667); background-color:rgb(46, 49, 61); background-image:linear-gradient(rgba(255, 255, 255, 0.298039) 1%, rgba(255, 255, 255, 0.14902) 100%); box-shadow:0px 1px 1px rgba(0,0,0,0.1); box-shadow:rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset;}
+.gridBox .headerPanel ul.row li.col {border-color:rgba(0, 0, 0, 0.0980392); text-shadow:rgba(0, 0, 0, 0.4) 0px -1px 0px; color:#fff;}
+.gridBox .headerPanel ul.row li[data-sortable=true]:hover {background-color:rgb(33, 35, 44); background-image:linear-gradient(rgba(255, 255, 255, 0.298039) 1%, rgba(255, 255, 255, 0.14902) 100%);}
+.gridBox .bodyPanel {border-color:#d9d9d9; border-right-color:#aaa; border-bottom-color:#aaa;}
+.gridBox .bodyPanel ul.row li.text div {border-color:#d9d9d9 !important;}
+
+@media (max-width:767px) {
+	.ModuleShopSeller aside.sidePanel {display:none;}
+}
+
+@media (min-width:768px) and (max-width:991px) {
+	.ModuleShopSeller aside.sidePanel {display:none;}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+	.ModuleShopSeller aside.sidePanel {width:220px;}
+	.ModuleShopSeller section.viewPanel {}
+	.ModuleShopSeller section.viewPanel .nbreadcrumb {height:60px; padding:0px 15px;}
+	.ModuleShopSeller section.viewPanel .nbreadcrumb h4 {height:60px; line-height:65px;}
+	.ModuleShopSeller section.viewPanel .panelWrapper {padding:15px;}
+}
+
+@media (max-width:969px) {
+	.gridWrapper {display:block; width:100%;}
+	.gridWrapper .gridSide, .gridWrapper .gridFixedSide {display:block; width:100%;}
+	.gridWrapper .gridPanel, .gridWrapper .gridFixedPanel {display:block; width:100%;}
+}
+
+@media (min-width:992px) and (max-width:1179px) {
+	.gridWrapper {display:block; width:100%;}
+	.gridWrapper .gridSide, .gridWrapper .gridFixedSide {display:block; width:100%;}
+	.gridWrapper .gridPanel, .gridWrapper .gridFixedPanel {display:block; width:100%;}
+}
+

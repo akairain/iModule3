@@ -1,0 +1,153 @@
+{
+	"loopnum":"번호",
+	"title":"제목",
+	"name":"작성자",
+	"email":"이메일",
+	"reg_date":"작성일",
+	"hit":"조회",
+	"ment":"댓글",
+	"good":"좋아요",
+	"bad":"싫어요",
+	"password":"패스워드",
+	"category":"카테고리",
+	"category_none":"카테고리없음",
+	"onlyHtml":"본문이 이미지 또는 동영상으로만 등록되어 있습니다.",
+	"list":{
+		"title":"목록"
+	},
+	"view":{
+		"title":"게시물보기",
+		"attachment":"첨부파일"
+	},
+	"postWrite":{
+		"write":"글 작성하기",
+		"modify":"글 수정하기",
+		"loading":"등록중...",
+		"password":"해당글의 패스워드를 입력하여 주십시오.",
+		"help":{
+			"name":{
+				"error":"작성자이름을 입력하여 주십시오."
+			},
+			"title":{
+				"error":"제목을 입력하여 주십시오."
+			},
+			"password":{
+				"default":"게시물수정 및 삭제, 비밀글열람시 사용됩니다.",
+				"error":"패스워드를 입력하여 주십시오."
+			},
+			"email":{
+				"default":"이메일을 입력하면 댓글알림을 받을 수 있습니다."
+			},
+			"content":{
+				"error":"내용을 입력하여 주십시오."
+			},
+			"category":{
+				"error":"이 게시판은 카테고리를 반드시 선택하도록 설정되어 있습니다."
+			}
+		},
+		"option":{
+			"is_notice":"해당글을 공지사항으로 등록합니다.",
+			"is_html_title":"해당글의 제목에 HTML태그를 허용합니다.",
+			"is_secret":"작성자 및 관리자만 확인가능한 '비밀글'상태로 등록합니다.",
+			"is_hidename":"익명으로 게시물을 등록합니다."
+		},
+		"option_short":{
+			"is_notice":"공지사항",
+			"is_html_title":"HTML제목사용",
+			"is_secret":"비밀글",
+			"is_hidename":"익명글"
+		}
+	},
+	"vote":{
+		"good":"해당글을 좋아합니다.",
+		"bad":"해당글을 싫어합니다.",
+		"mypost":"자신의 글은 투표할 수 없습니다.",
+		"duplicated":"이미 해당글에 투표하였습니다."
+	},
+	"mentList":{
+		"empty":"입력된 댓글이 없습니다."
+	},
+	"mentWrite":{
+		"write":"댓글 작성하기",
+		"modify":"댓글 수정하기",
+		"reply":"댓글 답변달기",
+		"overdepth":"더이상 답변댓글을 등록할 수 없습니다.",
+		"success":"댓글을 성공적으로 등록하였습니다.",
+		"loading":"등록중...",
+		"password":"해당댓글의 패스워드를 입력하여 주십시오.",
+		"help":{
+			"name":{
+				"error":"작성자이름을 입력하여 주십시오."
+			},
+			"password":{
+				"default":"댓글수정 및 삭제, 비밀글열람시 사용됩니다.",
+				"error":"패스워드를 입력하여 주십시오."
+			},
+			"email":{
+				"default":"이메일을 입력하면 댓글알림을 받을 수 있습니다."
+			},
+			"content":{
+				"error":"내용을 입력하여 주십시오."
+			}
+		},
+		"option":{
+			"is_secret":"작성자 및 관리자만 확인가능한 '비밀글'상태로 등록합니다.",
+			"is_hidename":"익명으로 게시물을 등록합니다."
+		},
+		"option_short":{
+			"is_secret":"비밀글",
+			"is_hidename":"익명글"
+		},
+		"error":{
+			"deleteSource":"원글이 삭제되어 답변댓글을 등록할 수 없습니다."
+		}
+	},
+	"postDelete":{
+		"title":"게시물 삭제",
+		"confirm":"해당 게시물을 정말 삭제하시겠습니까?",
+		"password":"해당 게시물의 패스워드를 입력하여 주십시오.",
+		"success":"게시물을 성공적으로 삭제하였습니다."
+	},
+	"mentDelete":{
+		"title":"댓글삭제",
+		"confirm":"해당 댓글을 정말 삭제하시겠습니까?",
+		"password":"해당 댓글의 패스워드를 입력하여 주십시오.",
+		"success":"댓글을 성공적으로 삭제하였습니다."
+	},
+	"button":{
+		"reply":"댓글",
+		"reply_cancel":"댓글취소",
+		"modify":"수정",
+		"modify_cancel":"수정취소",
+		"list":"목록",
+		"write":"글쓰기",
+		"submit":"등록하기",
+		"delete":"삭제",
+		"confirm":"확인",
+		"cancel":"취소"
+	},
+	"error":{
+		"unregistered":"등록되지 않은 게시판아이디입니다.",
+		"required":"필수입력값이 입력되지 않았습니다.",
+		"notFound":"게시물 또는 댓글을 찾을 수 없습니다.",
+		"notLogged":"먼저 로그인을 하여 주십시오.",
+		"incorrectPassword":"패스워드가 일치하지 않습니다.",
+		"forbidden":"요청한 작업을 처리할 수 있는 권한이 없습니다.",
+		"deletedeMent":"관리자 또는 작성자에 의해 삭제된 댓글입니다."
+	},
+	"loading":"처리중...",
+	"push":{
+		"ment":"{from}님이 {title} 게시물에 댓글을 남겼습니다.",
+		"ments":"{from}님 외 {count}명이 {title} 게시물에 댓글을 남겼습니다.",
+		"replyment":"{from}님이 {title} 게시물에 남긴 회원님의 댓글에 답변댓글을 남겼습니다.",
+		"replyments":"{from}님 외 {count}명이 {title} 게시물에 남긴 회원님의 댓글에 답변댓글을 남겼습니다.",
+		"post_good":"{from}님이 {title} 게시물을 좋아합니다.",
+		"post_goods":"{from}님 외 {count}명이 {title} 게시물을 좋아합니다.",
+		"post_bad":"누군가가 {title} 게시물을 싫어합니다.",
+		"post_bads":"총 {count}명의 회원이 {title} 게시물을 좋아합니다.",
+		"ment_good":"{from}님이 {title} 게시물에 남긴 회원님의 댓글을 좋아합니다.",
+		"ment_goods":"{from}님 외 {count}명이 {title} 게시물에 남긴 회원님의 댓글을 좋아합니다.",
+		"ment_bad":"누군가가 {title} 게시물에 남긴 회원님의 댓글을 싫어합니다.",
+		"post_bads":"총 {count}명의 회원이 {title} 게시물에 남긴 회원님의 댓글을 싫어합니다."
+	}
+}

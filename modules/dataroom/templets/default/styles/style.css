@@ -1,0 +1,245 @@
+.ModuleDataroomDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleDataroomDefault .contextTitle i {color:#df2933; font-size:12px;}
+.ModuleDataroomDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.ModuleDataroomDefault .contextTab {height:30px; border-bottom:2px solid #333; position:relative; z-index:0;}
+.ModuleDataroomDefault .contextTab ul {list-style:none; position:absolute; top:0px; left:0px; width:100%; height:32px; font-size:0px;}
+.ModuleDataroomDefault .contextTab li {width:25%; height:30px; line-height:30px; border:1px solid #ddd; border-bottom:0px; border-right:0px; box-sizing:border-box; font-size:12px; background:#f4f4f4; text-align:center; display:inline-block; vertical-align:top; cursor:pointer;}
+.ModuleDataroomDefault .contextTab li.selected {height:32px; border-color:#333 !important; border-bottom:2px solid #fff !important; background:#fff; font-weight:bold;}
+.ModuleDataroomDefault .contextTab li.selected + li {border-left:1px solid #333;}
+.ModuleDataroomDefault .contextTab li:last-child {border-right:1px solid #ddd;}
+
+.ModuleDataroomDefault .contextTab li span {font-family:Roboto, defaultFont; color:#df2933; font-weight:bold;}
+
+.ModuleDataroomDefault .tabPanel {padding:10px 0px; margin-bottom:15px;}
+.ModuleDataroomDefault .tabPanel .postContext {line-height:1.8;}
+.ModuleDataroomDefault .tabPanel:last-child {margin-bottom:0px; padding-bottom:5px;}
+
+.ModuleDataroomDefault .listPanel {margin-top:0px;}
+
+.ModuleDataroomDefault .listPanel .item {border:3px solid #e5e5e5; margin-bottom:10px;}
+.ModuleDataroomDefault .listPanel .item:hover {border-color:#df2933;}
+.ModuleDataroomDefault .listPanel .item .logo {display:block; width:100%; padding-bottom:100%; background-size:cover; background-repeat:no-repeat; position:relative; z-index:0;}
+.ModuleDataroomDefault .listPanel .item .logo .category {background:#888; padding:4px 6px; position:absolute; white-space:nowrap; max-width:60%; color:#fff; top:10px; left:-3px;}
+.ModuleDataroomDefault .listPanel .item .logo .version {font-family:Roboto; color:#fff; background:#df2933; position:absolute; bottom:10px; right:0px; padding:4px 6px;}
+.ModuleDataroomDefault .listPanel .item .detail {background:#f6f6f6; padding:8px;}
+.ModuleDataroomDefault .listPanel .item .detail a.title {display:block; height:30px; line-height:30px; font-size:15px; font-weight:bold; white-space:nowrap; text-decoration:none; text-overflow:ellipsis; overflow:hidden; color:#333;}
+.ModuleDataroomDefault .listPanel .item .detail a.title:hover {color:#df2933;}
+.ModuleDataroomDefault .listPanel .item .detail .description {font-size:12px; color:#999; height:20px; line-height:20px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.ModuleDataroomDefault .listPanel .item .detail .count {margin-top:8px; border-top:1px dotted #ccc; padding-top:8px; font-size:14px;}
+.ModuleDataroomDefault .listPanel .item .detail .count i {color:#999; display:inline-block; margin-right:5px;}
+.ModuleDataroomDefault .listPanel .item .detail .count span {font-family:Roboto; font-weight:bold; display:inline-block; margin-right:10px;}
+.ModuleDataroomDefault .listPanel .item .detail .count span.ment {color:#df2933;}
+.ModuleDataroomDefault .listPanel .item .detail .count span.download {color:#3498db;}
+.ModuleDataroomDefault .listPanel .item .detail .count span.price {float:right; margin-right:0px; color:#000;}
+.ModuleDataroomDefault .listPanel .item .detail .count span.price i {color:#000;}
+
+.ModuleDataroomDefault .viewPanel {border-bottom:2px solid #333;}
+.ModuleDataroomDefault .viewPanel .itemBox {border:1px solid #ddd; border-top:0px;}
+.ModuleDataroomDefault .viewPanel .itemPanel {display:table; width:100%; table-layout:fixed;}
+.ModuleDataroomDefault .viewPanel .itemPanel .logoPanel {display:table-cell; width:330px; vertical-align:top;}
+.ModuleDataroomDefault .viewPanel .itemPanel .logoPanel .logo {width:100%; padding-bottom:100%; background-size:cover;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel {display:table-cell; width:100%; vertical-align:top; background:#fbfbfb;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail {padding:20px;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail h4 {font-size:18px; height:30px; line-height:30px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .description {font-size:12px; color:#666; height:20px; line-height:20px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .price i {font-size:14px;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .price {font-size:16px; color:#df2933; font-weight:bold; margin:10px 0px; font-family:Roboto, defaultFont;}
+
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .splitLine {margin-top:10px; border-top:1px solid #ddd; height:10px;}
+
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .tag {display:table; width:100%; table-layout:fixed;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .tag .label {width:85px; display:table-cell; vertical-align:top; padding:5px 0px; line-height:1.6;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .tag .value {width:100%; display:table-cell; vertical-align:top; padding:5px 0px; line-height:1.6;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .tag .version {color:#df2933; font-family:Roboto, defaultFont; font-weight:bold; font-size:12px;}
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .tag .version .date {font-size:11px; font-weight:normal; color:#999;}
+
+.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .button, .ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .buttonSplit {text-align:right;}
+
+.ModuleDataroomDefault .viewPanel .actionButton {margin:10px 0px 5px 0px; font-size:0px;}
+.ModuleDataroomDefault .viewPanel .actionButton button.btn {margin:0px 0px 5px 0px;}
+.ModuleDataroomDefault .viewPanel .actionButton a.btn {float:right; margin-left:5px;}
+
+.ModuleDataroomDefault .versionTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleDataroomDefault .versionTable thead tr {height:40px; border-bottom:1px solid #eee;}
+.ModuleDataroomDefault .versionTable thead tr th div {border-bottom:1px solid #ddd; height:40px; line-height:40px; font-weight:bold; color:#333; margin:0px;}
+.ModuleDataroomDefault .versionTable thead tr th.title {width:100%; text-align:center;}
+.ModuleDataroomDefault .versionTable thead tr th.version {Width:60px; text-align:center;}
+.ModuleDataroomDefault .versionTable thead tr th.size {Width:60px; text-align:center;}
+.ModuleDataroomDefault .versionTable thead tr th.reg_date {width:120px; text-align:center;}
+.ModuleDataroomDefault .versionTable thead tr th.hit {width:60px; text-align:center;}
+.ModuleDataroomDefault .versionTable thead tr th.download {width:110px; text-align:center;}
+
+.ModuleDataroomDefault .versionTable tbody tr {height:30px; border-bottom:1px solid #eee;}
+.ModuleDataroomDefault .versionTable tbody tr td div {white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:30px; line-height:30px; color:#333; font-family:Roboto, defaultFont;}
+.ModuleDataroomDefault .versionTable tbody tr td.title {cursor:pointer;}
+.ModuleDataroomDefault .versionTable tbody tr td.title:hover {color:#df2933;}
+.ModuleDataroomDefault .versionTable tbody tr td.title .fa {color:#df2933; display:inline-block; width:10px; text-align:center;}
+.ModuleDataroomDefault .versionTable tbody tr td.title .fa-caret-right {display:inline-block;}
+.ModuleDataroomDefault .versionTable tbody tr td.title .fa-caret-down {display:none;}
+.ModuleDataroomDefault .versionTable tbody tr td.version {text-align:center; font-family:Roboto, tahoma; font-size:11px;}
+.ModuleDataroomDefault .versionTable tbody tr td.size {text-align:right; font-family:Roboto, tahoma; font-size:11px;}
+.ModuleDataroomDefault .versionTable tbody tr td.reg_date {font-size:11px; font-family:Roboto, tahoma; text-align:right;}
+.ModuleDataroomDefault .versionTable tbody tr td.hit div {font-size:11px; font-family:Roboto, tahoma; text-align:right;}
+.ModuleDataroomDefault .versionTable tbody tr td.download .btn {width:100px; display:inline-block; height:24px; line-height:24px; padding:0px; margin-left:10px;}
+.ModuleDataroomDefault .versionTable tbody tr.toggle {display:none;}
+
+.ModuleDataroomDefault .versionTable tbody tr.toggle .history {list-style:none;}
+.ModuleDataroomDefault .versionTable tbody tr.toggle .history li {line-height:1.8; margin:5px 0px; padding-left:10px;}
+.ModuleDataroomDefault .versionTable tbody tr.toggle .history li span {display:inline-block; width:50px; height:16px; line-height:16px; vertical-align:middle; margin-right:5px; font-family:Roboto, tahoma; font-size:10px; text-align:center;}
+.ModuleDataroomDefault .versionTable tbody tr.toggle .history li span.NEW {background:#e4232c; color:#fff;}
+.ModuleDataroomDefault .versionTable tbody tr.toggle .history li span.UPDATE {background:#2980b9; color:#fff;}
+.ModuleDataroomDefault .versionTable tbody tr.toggle .history li span.BUGFIX {background:#666; color:#fff;}
+
+.ModuleDataroomDefault .versionTable tbody tr.opened td.title .fa-caret-right {display:none;}
+.ModuleDataroomDefault .versionTable tbody tr.opened td.title .fa-caret-down {display:inline-block;}
+.ModuleDataroomDefault .versionTable tbody tr.opened + tr.toggle {display:table-row;}
+
+.ModuleDataroomDefault .userDetail span.block {display:inline-block; height:16px; line-height:16px; vertical-align:middle; font-size:12px; margin-right:10px;}
+.ModuleDataroomDefault .userDetail span.level {font-size:0px;}
+.ModuleDataroomDefault .userDetail span.level span {display:inline-block; vertical-align:middle;}
+.ModuleDataroomDefault .userDetail span.level span.text {font-size:11px; font-family:Roboto, defaultFont; color:#333; height:14px; line-height:14px; margin-top:2px;}
+.ModuleDataroomDefault .userDetail span.level span.text b {color:#df2933;}
+.ModuleDataroomDefault .userDetail span.level span.bar {margin:3px 5px; height:8px; border:1px solid #c7c7c7; width:80px; border-radius:4px; background:#e1e1e1; position:relative;}
+.ModuleDataroomDefault .userDetail span.level span.percentage {margin:-1px; height:8px; border:1px solid #a6d592; width:50%; border-radius:4px; background:#e8f688; vertical-align:top;}
+.ModuleDataroomDefault .userDetail span.level .levelDetail {display:none; position:absolute; z-index:150; width:200px; top:12px; left:-60px; text-align:center;}
+.ModuleDataroomDefault .userDetail span.level .levelDetail span.arrowBox {position:relative; background:#e4232c; border:1px solid #fa481d; height:20px; line-height:20px; padding:0 5px; color:#fff; font-size:11px; display:inline-block; vertical-align:middle;}
+.ModuleDataroomDefault .userDetail span.level .levelDetail span.arrowBox:after, .ModuleDataroomDefault .userDetail span.level .levelDetail span.arrowBox:before {bottom:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleDataroomDefault .userDetail span.level .levelDetail span.arrowBox:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#e4232c; border-width:4px; margin-left:-4px;}
+.ModuleDataroomDefault .userDetail span.level .levelDetail span.arrowBox:before {border-color:rgba(250, 72, 29, 0); border-bottom-color:#fa481d; border-width:5px; margin-left:-5px;}
+.ModuleDataroomDefault .userDetail span.level:hover .levelDetail {display:block;}
+
+@media (max-width:767px) {
+	.ModuleDataroomDefault .viewPanel .itemPanel {display:block;}
+	.ModuleDataroomDefault .viewPanel .itemPanel .logoPanel {display:block; width:auto;}
+	.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel {display:block; width:auto;}
+	.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail {padding:10px;}
+	.ModuleDataroomDefault .viewPanel .itemPanel .detailPanel .detail .button button {display:block; width:100%;}
+	
+	.ModuleDataroomDefault .versionTable .reg_date {display:none;}
+	.ModuleDataroomDefault .versionTable .hit {width:50px !important;}
+	.ModuleDataroomDefault .versionTable .download {width:35px !important;}
+	.ModuleDataroomDefault .versionTable .download button {width:25px !important;}
+	.ModuleDataroomDefault .versionTable .download button span {display:none;}
+}
+
+.ModuleDataroomDefault .mentList {}
+.ModuleDataroomDefault .mentList .empty {font-size:12px; height:80px; line-height:80px; text-align:center; color:#666;}
+.ModuleDataroomDefault .mentList .deleteMent {background:#c10000; color:#ffff80; padding:10px; text-align:center;}
+.ModuleDataroomDefault .mentList .mentItem {padding:5px 0px; border-bottom:1px dotted #c9c9c9;}
+.ModuleDataroomDefault .mentList .mentItem:last-child {border-bottom:0px;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader {display:table; table-layout:fixed; width:100%;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader > div {display:table-cell; vertical-align:middle;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .photo {width:52px;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .photo div.frame {width:36px; height:36px; border:1px solid #ddd; margin:4px;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .photo div.frame img.ModuleMemberInfoPhoto {width:36px; height:36px;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .info {width:100%;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .info .nickname {height:18px; line-height:18px;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button {width:140px; text-align:right;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button {font-size:11px; height:20px; padding:0px 4px; border-radius:2px; cursor:pointer; border:1px solid #c2c8cf; background:#fff; color:#666;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button:hover, .ModuleDataroomDefault .mentList .mentItem .button button:focus {background:#eaedf1;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button.reply {border:1px solid #526ebb; color:#526ebb; background:#fff;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button.reply:hover, .ModuleDataroomDefault .mentList .mentItem .button button.reply:focus, .ModuleDataroomDefault .mentList .mentItem .button button.reply[class*="selected"] {background:#526ebb; color:#fff;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button.modify {border:1px solid #2b916d; color:#2b916d; background:#fff;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button.modify:hover, .ModuleDataroomDefault .mentList .mentItem .button button.modify:focus, .ModuleDataroomDefault .mentList .mentItem .button button.modify[class*="selected"] {background:#2b916d; color:#fff;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button.delete {border:1px solid #df2933; color:#df2933; background:#fff;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button button.delete:hover, .ModuleDataroomDefault .mentList .mentItem .button button.delete:focus {background:#df2933; color:#fff;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button .fa-reply {transform:rotate(180deg); font-size:8px;}
+.ModuleDataroomDefault .mentList .mentItem .mentHeader .button .ip {height:12px; line-height:12px; font-size:11px; font-family:Roboto, defaultFont; color:#999; padding-top:4px;}
+
+.ModuleDataroomDefault .mentList .mentItem .mentBlock {position:relative;}
+.ModuleDataroomDefault .mentList .mentItem .mentContext {padding:5px 0px 8px 32px; line-height:1.6;}
+
+.ModuleDataroomDefault .mentList .mentParent .mentDepth {display:none;}
+.ModuleDataroomDefault .mentList .mentChild .mentDepth {width:8px; height:8px; position:absolute; top:7px; left:-10px; border-left:1px solid #eb9472; border-bottom:1px solid #eb9472;}
+
+.ModuleDataroomDefault .mentPagination {text-align:center; border-top:1px dotted #c9c9c9;}
+
+.ModuleDataroomDefault .postMentWrite .mentWrite {border-top:2px solid #333;}
+.ModuleDataroomDefault .postMentWrite .contextTitle {display:none;}
+.ModuleDataroomDefault .mentWrite .actionButton {margin:5px 0px; text-align:right;}
+.ModuleDataroomDefault .mentWrite .wysiwygFrame {background:#fff;}
+
+.ModuleDataroomDefault .qnaList {}
+.ModuleDataroomDefault .qnaList .qnaItem {padding:5px 0px; border-bottom:1px dotted #c9c9c9;}
+.ModuleDataroomDefault .qnaList .empty {font-size:12px; height:80px; line-height:80px; text-align:center; color:#666;}
+.ModuleDataroomDefault .qnaList .qnaItem:last-child {border-bottom:0px;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock {display:table; width:100%; table-layout:fixed; cursor:pointer;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .photo {width:52px; display:table-cell; vertical-align:middle;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .photo div.frame {width:36px; height:36px; border:1px solid #ddd; margin:4px;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .photo div.frame img.ModuleMemberInfoPhoto {width:36px; height:36px;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .item {width:100%; display:table-cell; vertical-align:middle;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .item .title {font-weight:bold; height:18px; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; font-size:13px;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .item .title .badge {display:inline-block; height:16px; line-height:16px; border:1px solid #df2933; padding:0px 3px; color:#df2933; vertical-align:middle; font-weight:normal; font-size:12px;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .item .detail {height:16px; line-height:16px; margin-top:2px; color:#999;}
+.ModuleDataroomDefault .qnaList .qnaItem .qnaBlock .item .detail .reg_date {color:#666; font-family:Roboto, defaultFont;}
+
+.ModuleDataroomDefault .qnaPagination {border-top:1px dotted #c9c9c9;}
+.ModuleDataroomDefault .qnaPagination button {float:right; margin-top:10px;}
+
+.ModuleDataroomDefault .qnaView {padding:10px 0px 10px 52px;}
+.ModuleDataroomDefault .qnaView .qnaContext {line-height:1.8; padding-bottom:15px;}
+.ModuleDataroomDefault .qnaView .actionButton {text-align:right;}
+
+.ModuleDataroomDefault .qnaView .button {margin:5px 0px; text-align:right;}
+
+.ModuleDataroomDefault .qnaAnswer {border:1px solid #e5e5e5; background:#f4f4f4; padding:8px;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader {display:table; width:100%; table-layout:fixed; cursor:pointer; margin-bottom:5px;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader .photo {width:52px; display:table-cell; vertical-align:middle;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader .photo div.frame {width:36px; height:36px; border:1px solid #ddd; margin:4px;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader .photo div.frame img.ModuleMemberInfoPhoto {width:36px; height:36px;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader .item {width:100%; display:table-cell; vertical-align:middle;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader .item .nickname {font-weight:bold; height:18px; line-height:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.ModuleDataroomDefault .qnaAnswer .qnaAnswerHeader .item .reg_date {height:16px; line-height:16px; margin-top:2px; color:#666; font-family:Roboto, defaultFont;}
+.ModuleDataroomDefault .qnaAnswer .answerContext {padding:10px 5px; line-height:1.8;}
+.ModuleDataroomDefault .qnaAnswer .button {margin-top:10px; text-align:right;}
+
+.ModuleDataroomDefault .writeTitle {font-weight:bold; font-size:14px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleDataroomDefault .writeTitle i {color:#df2933;}
+
+.ModuleDataroomDefault .writeTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleDataroomDefault .writeTable .warning {background:#fffeeb; padding:10px; line-height:1.8; color:#df2933;}
+.ModuleDataroomDefault .writeTable .warning .lineBox {height:80px; line-height:80px; text-align:center;}
+.ModuleDataroomDefault .writeTable .boxDefault {margin-top:5px;}
+.ModuleDataroomDefault .writeTable .boxDefault i, .ModuleDataroomDefault .writeTable .boxDefault span {color:#df2933;}
+
+.ModuleDataroomDefault .writeTable td.label {width:20%; background:#f4f4f4; font-size:12px; font-weight:bold; padding:0px 0px 0px 10px;}
+.ModuleDataroomDefault .writeTable td.input {width:80%;}
+.ModuleDataroomDefault .writeTable td.input .inputBlock, .ModuleDataroomDefault .writeTable td.input .inputInline {font-size:12px; line-height:1.6; background:#fff; padding:8px; border-left:1px dotted #ccc;}
+.ModuleDataroomDefault .writeTable tr.split {background:#e5e5e5; height:1px; font-size:0px;}
+.ModuleDataroomDefault .writeTable tr.splitBottom {height:4px;}
+.ModuleDataroomDefault .writeTable tr.splitBottom div {border-top:1px solid #ccc; background:#f4f4f4; height:3px;}
+
+.ModuleDataroomDefault .writeTable .wysiwygFrame {background:#fff; padding-bottom:5px;}
+
+.ModuleDataroomDefault .writeTable .optionBlock {border:1px dotted #ccc; background:#f4f4f4; line-height:1.6; margin-top:5px; padding:8px;}
+.ModuleDataroomDefault .writeTable .optionBlock .row {margin:0px !important;}
+.ModuleDataroomDefault .writeTable .optionBlock .row div {padding:2px 0px !important;}
+.ModuleDataroomDefault .writeTable .optionBlock input {width:13px; height:13px; vertical-align:middle; display:inline-block;}
+.ModuleDataroomDefault .writeTable .optionBlock label {height:13px; line-height:13px; vertical-align:middle; display:inline-block; padding-left:5px; font-size:11px; cursor:pointer;}
+.ModuleDataroomDefault .writeTable .optionBlock label.disabled {color:#999;}
+
+.ModuleDataroomDefault .footerTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleDataroomDefault .footerTable .buttonLeft {width:100%;}
+.ModuleDataroomDefault .footerTable .buttonRight {width:100%; text-align:right;}
+
+.ModuleDataroomDefault .searchTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleDataroomDefault .searchTable .searchKey .selectControl {width:95px;}
+.ModuleDataroomDefault .searchTable .searchInput {width:100%;}
+.ModuleDataroomDefault .searchTable .searchInput .liveSearchControl {width:100%; max-width:250px;}
+.ModuleDataroomDefault .searchTable .buttonLeft {width:100%;}
+.ModuleDataroomDefault .searchTable .buttonRight {width:140px; text-align:right;}
+.ModuleDataroomDefault .searchTable .searchInputRight {width:250px; text-align:right;}
+
+.ModuleDataroomDefault .blankSpace {width:15px; height:15px;}
+
+.ModuleDataroomDefault ul.attachment {list-style:none;}
+.ModuleDataroomDefault ul.attachment li {padding:3px 0px;}
+.ModuleDataroomDefault ul.attachment li a {display:inline-block; text-decoration:none; color:#333; font-size:12px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; max-width:100%; height:20px; line-height:20px;}
+.ModuleDataroomDefault ul.attachment li a:hover {color:#df2933;}
+.ModuleDataroomDefault ul.attachment li a .filesize {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px; float:right; margin-left:5px; height:20px; line-height:20px;}
+
+div[data-role=modal] .message .title {font-size:15px; font-weight:bold; margin-bottom:10px;}
+div[data-role=modal] .message .price {font-size:14px; font-family:Roboto, tahoma; font-weight:bold; margin-bottom:10px; margin-top:-5px; color:#df2933;}

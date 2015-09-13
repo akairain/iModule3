@@ -1,0 +1,12 @@
+{
+	"title":{
+		"ko":"MD5암호화 로그인"
+	},
+	"target":{
+		"member":{
+			"afterDoProcess":[
+				"login"
+			]
+		}
+	}
+}

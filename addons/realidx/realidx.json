@@ -1,0 +1,13 @@
+{
+	"title":{
+		"ko":"실제번호"
+	},
+	"target":{
+		"board":{
+			"afterInitContext":[
+				"list",
+				"view"
+			]
+		}
+	}
+}

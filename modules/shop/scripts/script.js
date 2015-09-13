@@ -1,0 +1,5 @@
+var Shop = {
+	
+};
+
+alert("in");

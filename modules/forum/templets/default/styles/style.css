@@ -1,0 +1,173 @@
+.ModuleForumDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleForumDefault .contextTitle i {color:#df2933; font-size:12px;}
+.ModuleForumDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.ModuleForumDefault div.labels {font-size:0px;}
+.ModuleForumDefault a.label {display:inline-block; background:#e4edf4; color:#3e6d8e; text-decoration:none; padding:0px 7px; height:20px; line-height:20px; margin:3px 3px 0px 0px; font-size:12px; border-radius:3px;}
+
+.ModuleForumDefault .blankSpace {width:15px; height:15px;}
+
+.ModuleForumDefault .listTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleForumDefault .listTable thead tr {height:40px; border-bottom:1px solid #eee;}
+.ModuleForumDefault .listTable thead tr th div {border-bottom:1px solid #ddd; height:40px; line-height:40px; font-weight:bold; color:#333; margin:0px;}
+.ModuleForumDefault .listTable thead tr th.vote {width:56px; text-align:center;}
+.ModuleForumDefault .listTable thead tr th.answer {width:56px; text-align:center;}
+.ModuleForumDefault .listTable thead tr th.hit {Width:56px; text-align:center;}
+.ModuleForumDefault .listTable thead tr th.title {width:100%; text-align:center;}
+
+.ModuleForumDefault .listTable tbody tr {border-bottom:1px solid #eee;}
+.ModuleForumDefault .listTable tbody tr td {padding:5px 0px; vertical-align:top;}
+.ModuleForumDefault .listTable tbody tr td div.count {width:50px; height:50px; font-family:Rotobo, tahoma; background:#f4f4f4; margin:0 auto; text-align:center; font-size:11px; color:#666; border-radius:3px;}
+
+.ModuleForumDefault .listTable tbody tr td div.count.hasReply {background:#666; color:#fff;}
+
+.ModuleForumDefault .listTable tbody tr td div.count span {display:block; font-size:16px; text-align:center; padding:6px 0px 3px 0px;}
+.ModuleForumDefault .listTable tbody tr td.title div.wrap {padding-left:10px;}
+.ModuleForumDefault .listTable tbody tr td.title div.wrap a.title {display:block; line-height:1.6; font-size:15px; color:#07c; text-decoration:none; padding-top:3px;}
+.ModuleForumDefault .listTable tbody tr td.title div.wrap a.title:hover {color:#30a7fc;}
+
+.ModuleForumDefault .listTable tbody tr td.title div.wrap div.labels .author {float:right; height:20px; line-height:20px; padding-left:10px; color:#666; font-size:12px; margin-top:3px;}
+.ModuleForumDefault .listTable tbody tr td.title div.wrap div.labels .author .reg_date {font-family:Roboto, tahoma; font-size:11px;}
+
+.ModuleForumDefault .listTable tbody tr td.title span.ment {font-family:Roboto, tahoma; font-size:11px; color:#fa481d; font-weight:bold;}
+.ModuleForumDefault .listTable tbody tr td.title span.image {font-size:0px; width:12px; height:30px; background:url(../images/icon_image.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleForumDefault .listTable tbody tr td.title span.file {font-size:0px; width:12px; height:30px; background:url(../images/icon_file.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleForumDefault .listTable tbody tr td.title span.video {font-size:0px; width:12px; height:30px; background:url(../images/icon_video.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleForumDefault .listTable tbody tr td.title span.link {font-size:0px; width:12px; height:30px; background:url(../images/icon_link.png); background-size:16px 16px; background-repeat:no-repeat; background-position:50% 50%;}
+
+.ModuleForumDefault .footerTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleForumDefault .footerTable .buttonLeft {width:100%;}
+.ModuleForumDefault .footerTable .buttonRight {width:100%; text-align:right;}
+
+.ModuleForumDefault .searchTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleForumDefault .searchTable .searchKey {width:100px;}
+.ModuleForumDefault .searchTable .searchKey .selectControl {width:95px;}
+.ModuleForumDefault .searchTable .searchInput {width:100%;}
+.ModuleForumDefault .searchTable .searchInput .liveSearchControl {width:100%; max-width:250px;}
+.ModuleForumDefault .searchTable .buttonRight {width:90px; text-align:right;}
+
+.ModuleForumDefault .pagination > li > a, .pagination > li > span {font-family:Roboto, defaultFont;}
+
+.ModuleForumDefault .postDetail span.block {display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:12px; margin-right:10px;}
+.ModuleForumDefault .postDetail span.level {font-size:0px;}
+.ModuleForumDefault .postDetail span.level span {display:inline-block; vertical-align:middle;}
+.ModuleForumDefault .postDetail span.level span.text {font-size:11px; font-family:Roboto, defaultFont; color:#333; height:28px; line-height:28px; margin-top:2px;}
+.ModuleForumDefault .postDetail span.level span.text b {color:#df2933;}
+.ModuleForumDefault .postDetail span.level span.bar {margin:10px 5px; height:8px; border:1px solid #c7c7c7; width:80px; border-radius:4px; background:#e1e1e1; position:relative;}
+.ModuleForumDefault .postDetail span.level span.percentage {margin:-1px; height:8px; border:1px solid #a6d592; width:50%; border-radius:4px; background:#e8f688; vertical-align:top;}
+.ModuleForumDefault .postDetail span.level .levelDetail {display:none; position:absolute; z-index:150; width:200px; top:12px; left:-60px; text-align:center;}
+.ModuleForumDefault .postDetail span.level .levelDetail span.arrowBox {position:relative; background:#e4232c; border:1px solid #fa481d; height:20px; line-height:20px; padding:0 5px; color:#fff; font-size:11px; display:inline-block; vertical-align:middle;}
+.ModuleForumDefault .postDetail span.level .levelDetail span.arrowBox:after, .ModuleForumDefault .postDetail span.level .levelDetail span.arrowBox:before {bottom:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleForumDefault .postDetail span.level .levelDetail span.arrowBox:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#e4232c; border-width:4px; margin-left:-4px;}
+.ModuleForumDefault .postDetail span.level .levelDetail span.arrowBox:before {border-color:rgba(250, 72, 29, 0); border-bottom-color:#fa481d; border-width:5px; margin-left:-5px;}
+.ModuleForumDefault .postDetail span.level:hover .levelDetail {display:block;}
+.ModuleForumDefault .postDetail span.reg_date {font-family:Roboto, defaultFont; color:#666;}
+.ModuleForumDefault .postDetail span.hit {color:#666;}
+.ModuleForumDefault .postDetail span.hit b {font-family:Roboto, defaultFont; color:#333;}
+.ModuleForumDefault .postDetail span.ment {color:#666;}
+.ModuleForumDefault .postDetail span.ment b {font-family:Roboto, defaultFont; color:#fa481d;}
+.ModuleForumDefault .postDetail span.good {color:#666;}
+.ModuleForumDefault .postDetail span.good b {font-family:Roboto, defaultFont; color:#3b9ad8;}
+.ModuleForumDefault .postDetail span.bad {color:#666;}
+.ModuleForumDefault .postDetail span.bad b {font-family:Roboto, defaultFont; color:#fbb65c;}
+
+.ModuleForumDefault .postArticle {border-bottom:2px solid #333;}
+
+.ModuleForumDefault .postHeader {border-bottom:1px solid #ddd;}
+.ModuleForumDefault .postHeader table {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleForumDefault .postHeader table td.photo {width:70px;}
+.ModuleForumDefault .postHeader table td.photo div.frame {width:53px; height:53px; border:1px solid #ddd; margin:5px;}
+.ModuleForumDefault .postHeader table td.photo div.frame img.ModuleMemberInfoPhoto {width:53px; height:53px;}
+.ModuleForumDefault .postHeader table td.info {width:100%;}
+.ModuleForumDefault .postHeader table td.info h4 {font-weight:bold; font-size:16px; color:#333; height:27px; line-height:27px; margin-top:5px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.ModuleForumDefault .postHeader table td.info .postDetail {height:30px; font-size:0px; margin-bottom:3px;}
+
+.ModuleForumDefault .postContent {display:table; width:100%; table-layout:fixed; border-top:1px solid #eee;}
+.ModuleForumDefault .postContent .voteArea {display:table-cell; width:60px; vertical-align:top;}
+.ModuleForumDefault .postContent .voteArea button {display:block; width:100%; height:40px; border:0px; background:transparent; font-size:30px; text-align:center; cursor:pointer; color:#666;}
+.ModuleForumDefault .postContent .voteArea button:hover {color:#df2933;}
+.ModuleForumDefault .postContent .voteArea button .fa-spinner {color:#df2933; font-size:18px;}
+.ModuleForumDefault .postContent .voteArea button.selected {color:#df2933;}
+.ModuleForumDefault .postContent .voteArea div {height:20px; line-height:20px; text-align:center; color:#666; font-family:Roboto, tahoma; font-size:16px;}
+.ModuleForumDefault .postContent .contentArea {display:table-cell; width:100%; vertical-align:top; padding-top:8px;}
+.ModuleForumDefault .postContent .contentArea .wrapContent {font-size:13px; line-height:2.0;}
+.ModuleForumDefault .postContent .contentArea {margin:5px; line-height:2.0;}
+
+
+.ModuleForumDefault .mentList {background:#f4f4f4; padding:3px 8px;}
+.ModuleForumDefault .mentList .empty {font-size:12px; height:80px; line-height:80px; text-align:center; color:#666;}
+.ModuleForumDefault .mentList .deleteMent {background:#c10000; color:#ffff80; padding:10px; text-align:center;}
+.ModuleForumDefault .mentList .mentItem {padding:5px 0px; border-bottom:1px dotted #c9c9c9;}
+.ModuleForumDefault .mentList .mentItem:last-child {border-bottom:0px;}
+.ModuleForumDefault .mentList .mentItem .mentHeader {display:table; table-layout:fixed; width:100%;}
+.ModuleForumDefault .mentList .mentItem .mentHeader > div {display:table-cell; vertical-align:middle;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .photo {width:52px;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .photo div.frame {width:36px; height:36px; border:1px solid #ddd; margin:4px;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .photo div.frame img.ModuleMemberInfoPhoto {width:36px; height:36px;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .info {width:100%;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .info .author {height:18px; font-size:0px;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button {width:200px; text-align:right;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button {font-size:11px; height:20px; padding:0px 4px; border-radius:2px; cursor:pointer; border:1px solid #c2c8cf; background:#fff; color:#666;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button:hover, .ModuleForumDefault .mentList .mentItem .button button:focus {background:#eaedf1;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.good span {font-family:Roboto, defaultFont; color:#3b9ad8; font-weight:bold;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.good[class*="selected"] {background:#df2933; color:#fff; border-color:#df2933;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.good[class*="selected"] span {color:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.bad span {font-family:Roboto, defaultFont; color:#fbb65c; font-weight:bold;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.bad[class*="selected"] {background:#df2933; color:#fff; border-color:#df2933;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.bad[class*="selected"] span {color:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.reply {border:1px solid #526ebb; color:#526ebb; background:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.reply:hover, .ModuleForumDefault .mentList .mentItem .button button.reply:focus, .ModuleForumDefault .mentList .mentItem .button button.reply[class*="selected"] {background:#526ebb; color:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.modify {border:1px solid #2b916d; color:#2b916d; background:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.modify:hover, .ModuleForumDefault .mentList .mentItem .button button.modify:focus, .ModuleForumDefault .mentList .mentItem .button button.modify[class*="selected"] {background:#2b916d; color:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.delete {border:1px solid #df2933; color:#df2933; background:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button button.delete:hover, .ModuleForumDefault .mentList .mentItem .button button.delete:focus {background:#df2933; color:#fff;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button .fa-reply {transform:rotate(180deg); font-size:8px;}
+.ModuleForumDefault .mentList .mentItem .mentHeader .button .ip {height:12px; line-height:12px; font-size:11px; font-family:Roboto, defaultFont; color:#999; padding-top:4px;}
+
+.ModuleForumDefault .mentList .mentItem .mentBlock {position:relative;}
+.ModuleForumDefault .mentList .mentItem .mentContext {padding:5px 0px 8px 32px; line-height:1.6;}
+
+.ModuleForumDefault .mentList .mentParent .mentDepth {display:none;}
+.ModuleForumDefault .mentList .mentChild .mentDepth {width:8px; height:8px; position:absolute; top:7px; left:-10px; border-left:1px solid #eb9472; border-bottom:1px solid #eb9472;}
+
+.ModuleForumDefault .mentBottom {background:#f4f4f4;}
+.ModuleForumDefault .mentPagination {margin:0px 8px; text-align:center; border-top:1px dotted #c9c9c9;}
+
+.ModuleForumDefault .postMentWrite .mentWrite {border-top:2px solid #333;}
+.ModuleForumDefault .postMentWrite .contextTitle {display:none;}
+.ModuleForumDefault .mentWrite .btnGroup {margin:5px 0px; text-align:right;}
+.ModuleForumDefault .mentWrite .wysiwygFrame {background:#fff;}
+.ModuleForumDefault .mentList .mentWrite .wysiwygFrame {background:#f4f4f4;}
+.ModuleForumDefault .mentList .mentWrite .fileBox {position:relative; border:1px solid #ccc; max-height:150px;}
+.ModuleForumDefault .mentList .mentWrite .fileBox .fileList {max-height:150px; background:#e4e4e4; font-size:0px; overflow-y:scroll;}
+
+.ModuleForumDefault .mentWrite .actionButton {text-align:right; padding-bottom:5px;}
+
+.ModuleForumDefault .writeTitle {font-weight:bold; font-size:14px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleForumDefault .writeTitle i {color:#df2933;}
+
+.ModuleForumDefault .writeTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleForumDefault .writeTable td.label {width:20%; background:#f4f4f4; font-size:12px; font-weight:bold; padding:0px 0px 0px 10px;}
+.ModuleForumDefault .writeTable td.input {width:80%;}
+.ModuleForumDefault .writeTable td.input .inputBlock, .ModuleForumDefault .writeTable td.input .inputInline {font-size:12px; line-height:1.6; background:#fff; padding:8px; border-left:1px dotted #ccc;}
+.ModuleForumDefault .writeTable tr.split {background:#e5e5e5; height:1px; font-size:0px;}
+.ModuleForumDefault .writeTable tr.splitBottom {height:4px;}
+.ModuleForumDefault .writeTable tr.splitBottom div {border-top:1px solid #ccc; background:#f4f4f4; height:3px;}
+
+.ModuleForumDefault .writeTable .wysiwygFrame {background:#fff; margin-bottom:5px;}
+
+.ModuleForumDefault ul.attachment {list-style:none;}
+.ModuleForumDefault ul.attachment li {padding:3px 0px;}
+.ModuleForumDefault ul.attachment li a {display:inline-block; text-decoration:none; color:#333; font-size:12px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; max-width:100%; height:20px; line-height:20px;}
+.ModuleForumDefault ul.attachment li a:hover {color:#df2933;}
+.ModuleForumDefault ul.attachment li a .filesize {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px; float:right; margin-left:5px; height:20px; line-height:20px;}
+
+.ModuleForumDefault .wrapContent img {box-shadow:1px 1px 4px rgba(0,0,0,0.15);}
+
+@media (max-width:767px) {
+	.ModuleForumDefault .mentList .mentItem .mentHeader {position:block;}
+	.ModuleForumDefault .mentList .mentItem .mentHeader > div {display:inline-block;}
+	.ModuleForumDefault .mentList .mentItem .mentHeader .info {width:auto;}
+	.ModuleForumDefault .mentList .mentItem .mentHeader .button {display:block !important; width:100%;}
+	.ModuleForumDefault .mentList .mentItem .mentHeader .button .ip {display:hidden;}
+}

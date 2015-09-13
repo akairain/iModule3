@@ -1,0 +1,1 @@
+<?php $IM->getWidget('member/login')->setTemplet('default')->doLayout(); ?>

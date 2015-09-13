@@ -1,0 +1,80 @@
+@font-face {
+	font-family:"NanumGothic";
+	font-style:normal;
+	font-weight:400; src:url("../fonts/NanumGothic-Regular.eot"); src:url("../fonts/NanumGothic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumGothic-Regular.woff2") format("woff2"), url("../fonts/NanumGothic-Regular.woff") format("woff"), url("../fonts/NanumGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"NanumGothic";
+	font-style:normal;
+	font-weight:700;
+	src:url("../fonts/NanumGothic-Bold.eot");
+	src:url("../fonts/NanumGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumGothic-Bold.woff2") format("woff2"), url("../fonts/NanumGothic-Bold.woff") format("woff"), url("../fonts/NanumGothic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"NanumBarunGothic";
+	font-style:normal;
+	font-weight:200;
+	src:url("../fonts/NanumBarunGothic-Light.eot");
+	src:url("../fonts/NanumBarunGothic-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Light.woff") format("woff"), url("../fonts/NanumBarunGothic-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"NanumBarunGothic";
+	font-style:normal;
+	font-weight:400;
+	src:url("../fonts/NanumBarunGothic-Regular.eot");
+	src:url("../fonts/NanumBarunGothic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Regular.woff") format("woff"), url("../fonts/NanumBarunGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"NanumBarunGothic";
+	font-style:normal;
+	font-weight:700;
+	src:url("../fonts/NanumBarunGothic-Bold.eot");
+	src:url("../fonts/NanumBarunGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Bold.woff") format("woff"), url("../fonts/NanumBarunGothic-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"NotoSans";
+	font-style:normal;
+	font-weight:400;
+	src:url("../fonts/NotoSans-Regular.eot");
+	src:url("../fonts/NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans-Regular.woff") format("woff"), url("../fonts/NotoSans-Regular.otf") format("truetype");
+}
+
+@font-face {
+	font-family:"NotoSans";
+	font-style:normal;
+	font-weight:700;
+	src:url("../fonts/NotoSans-Bold.eot");
+	src:url("../fonts/NotoSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"), url("../fonts/NotoSans-Bold.otf") format("truetype");
+}
+
+@font-face {
+	font-family:"defaultFont";
+	font-style:normal;
+	font-weight:200;
+	src:url("../fonts/NanumBarunGothic-Light.eot");
+	src:url("../fonts/NanumBarunGothic-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Light.woff") format("woff"), url("../fonts/NanumBarunGothic-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"defaultFont";
+	font-style:normal;
+	font-weight:400;
+	src:url("../fonts/NanumBarunGothic-Regular.eot");
+	src:url("../fonts/NanumBarunGothic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Regular.woff") format("woff"), url("../fonts/NanumBarunGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"defaultFont";
+	font-style:normal;
+	font-weight:700;
+	src:url("../fonts/NanumBarunGothic-Bold.eot");
+	src:url("../fonts/NanumBarunGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Bold.woff") format("woff"), url("../fonts/NanumBarunGothic-Bold.ttf") format("truetype");
+}
+
+.systemFont {font-family:"Apple SD Gothic Neo", "malgun gothic", dotum, sans-serif;}
+body {font-family:defaultFont;}

@@ -1,0 +1,107 @@
+{
+	"loopnum":"번호",
+	"title":"질문제목",
+	"reg_date":"작성일",
+	"hit":"조회",
+	"ment":"댓글",
+	"question":"질문",
+	"good":"추천",
+	"answer":"답변",
+	"point":"추가포인트",
+	"label":"질문분류",
+	"onlyHtml":"본문이 이미지 또는 동영상으로만 등록되어 있습니다.",
+	"list":{
+		"title":"목록"
+	},
+	"view":{
+		"title":"게시물보기",
+		"attachment":"첨부파일"
+	},
+	"postWrite":{
+		"write":"질문 작성하기",
+		"loading":"등록중...",
+		"help":{
+			"title":{
+				"error":"질문 제목을 입력하여 주십시오."
+			},
+			"content":{
+				"error":"내용을 입력하여 주십시오."
+			},
+			"labels":{
+				"error":"이 문의게시판은 질문분류를 반드시 한개 이상 선택하도록 설정되어 있습니다."
+			},
+			"point":{
+				"default":"채택된 답변자에게 추가적으로 포인트를 지급합니다.",
+				"error":"추가포인트를 숫자로만 입력하여 주십시오."
+			}
+		},
+		"option":{
+			"is_push":"이 질문에 답변이 입력될 경우 알림을 받습니다.",
+			"is_hidename":"익명으로 질문을 등록합니다."
+		},
+		"option_short":{
+			"is_ment":"댓글허용",
+			"is_push":"알림받음"
+		}
+	},
+	"vote":{
+		"good":"해당글이 유용하다고 표시하였습니다.",
+		"bad":"해당글을 유용하지 않다고 표시하였습니다.",
+		"mypost":"자신의 글은 투표할 수 없습니다.",
+		"duplicated":"이미 해당글에 투표하였습니다."
+	},
+	"answerList":{
+		"empty":"입력된 답변이 없습니다."
+	},
+	"answerWrite":{
+		"write":"답변 작성하기",
+		"success":"답변을 성공적으로 등록하였습니다.",
+		"loading":"등록중...",
+		"help":{
+			"content":{
+				"error":"내용을 입력하여 주십시오."
+			}
+		}
+	},
+	"answerSelect":{
+		"title":"답변 채택하기",
+		"confirm":"해당 답변을 채택하고, 질문을 마감하시겠습니까?<br>질문 마감후에는 추가적인 답변을 받을 수 없습니다.<br>답변 채택시 질문등록시 설정한 추가포인트가 답변자에게 지급되며, 채택한 질문자에게도 소정의 포인트가 지급됩니다."
+	},
+	"mentList":{
+		"empty":"답변이 이해가 잘 안되거나 추가적인 내용이 있다면<br>이곳을 통해 답변자와 질문자간에 댓글을 남길 수 있습니다."
+	},
+	"button":{
+		"list":"목록",
+		"write":"질문하기",
+		"submit":"등록하기",
+		"confirm":"확인",
+		"cancel":"취소",
+		"select":"답변 채택하기"
+	},
+	"error":{
+		"unregistered":"등록되지 않은 문의게시판아이디입니다.",
+		"required":"필수입력값이 입력되지 않았습니다.",
+		"notFound":"게시물을 찾을 수 없습니다.",
+		"notLogged":"먼저 로그인을 하여 주십시오.",
+		"forbidden":"요청한 작업을 처리할 수 있는 권한이 없습니다.",
+		"notEnoughPoint":"포인트가 충분하지 않습니다.",
+		"mypost":"자신의 질문글에는 답변을 남길 수 없습니다.",
+		"hasSelect":"이미 답변이 채택된 질문입니다."
+	},
+	"loading":"처리중...",
+	"push":{
+		"ment":"{from}님이 {title} 답변에 추가댓글을 남겼습니다.",
+		"ments":"{from}님 외 {count}명이 {title} 답변에 추가댓글을 남겼습니다.",
+		"selected":"{from}님이 {title} 답변을 채택하였습니다.",
+		"answer":"{from}님이 {title} 질문에 답변을 남겼습니다.",
+		"answers":"{from}님이 외 {count}명이 {title} 질문에 답변을 남겼습니다.",
+		"question_good":"{from}님이 {title} 질문이 유용하다고 생각합니다.",
+		"question_goods":"{from}님 외 {count}명이 {title} 질문이 유용하다고 생각합니다.",
+		"question_bad":"누군가가 {title} 질문이 유용하지 않다고 생각합니다.",
+		"question_bads":"총 {count}명의 회원이 {title} 질문이 유용하지 않다고 생각합니다.",
+		"answer_good":"{from}님이 {title} 답변이 도움된다고 생각합니다.",
+		"answer_goods":"{from}님 외 {count}명이 {title} 답변이 도움된다고 생각합니다.",
+		"answer_bad":"누군가가 {title} 답변이 도움되지 않다고 생각합니다.",
+		"answer_bads":"총 {count}명의 회원이 {title} 답변이 도움되지 않다고 생각합니다."
+	}
+}

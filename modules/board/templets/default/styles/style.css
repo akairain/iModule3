@@ -1,0 +1,186 @@
+.ModuleBoardDefault {font-size:12px;}
+.ModuleBoardDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleBoardDefault .contextTitle i {color:#df2933; font-size:12px;}
+.ModuleBoardDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.ModuleBoardDefault .listTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleBoardDefault .listTable thead tr {height:40px; border-bottom:1px solid #eee;}
+.ModuleBoardDefault .listTable thead tr th div {border-bottom:1px solid #ddd; height:40px; line-height:40px; font-weight:bold; color:#333; margin:0px;}
+.ModuleBoardDefault .listTable thead tr th.loopnum {width:50px; text-align:center;}
+.ModuleBoardDefault .listTable thead tr th.title {width:100%; text-align:center;}
+.ModuleBoardDefault .listTable thead tr th.name {Width:100px; text-align:left;}
+.ModuleBoardDefault .listTable thead tr th.reg_date {width:80px; text-align:center;}
+.ModuleBoardDefault .listTable thead tr th.hit {width:40px; text-align:center;}
+.ModuleBoardDefault .listTable thead tr th.good {width:30px; text-align:right;}
+.ModuleBoardDefault .listTable thead tr th.bad {width:30px; text-align:right;}
+
+.ModuleBoardDefault .listTable tbody tr {height:30px; border-bottom:1px solid #eee;}
+.ModuleBoardDefault .listTable tbody tr td div {white-space:nowrap; text-overflow:ellipsis; overflow:hidden; height:30px; line-height:30px; color:#333;}
+.ModuleBoardDefault .listTable tbody tr td.loopnum div {font-size:10px; font-family:Roboto, tahoma; text-align:center; color:#888;}
+.ModuleBoardDefault .listTable tbody tr td.loopnum .fa {color:#df2933;}
+.ModuleBoardDefault .listTable tbody tr td.title div {font-size:0px; font-size:0px; margin-right:10px !important;}
+.ModuleBoardDefault .listTable tbody tr td.title div a {text-decoration:none; color:#333; display:inline-block; height:30px; line-height:30px; font-size:12px; display:inline-block; max-width:100%; text-overflow:ellipsis; overflow:hidden;}
+.ModuleBoardDefault .listTable tbody tr td.title div a:hover {color:#428bca;}
+.ModuleBoardDefault .listTable tbody tr td.title div a span {float:right; margin-left:3px; height:30px; line-height:30px; display:inline-block;}
+.ModuleBoardDefault .listTable tbody tr td.title i.fa-lock {color:#fa481d; margin-right:5px;}
+.ModuleBoardDefault .listTable tbody tr td.title span.ment {font-family:Roboto, tahoma; font-size:11px; color:#fa481d; font-weight:bold;}
+.ModuleBoardDefault .listTable tbody tr td.title span.image {font-size:0px; width:12px; height:30px; background:url(../images/icon_image.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleBoardDefault .listTable tbody tr td.title span.file {font-size:0px; width:12px; height:30px; background:url(../images/icon_file.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleBoardDefault .listTable tbody tr td.title span.video {font-size:0px; width:12px; height:30px; background:url(../images/icon_video.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleBoardDefault .listTable tbody tr td.title span.link {font-size:0px; width:12px; height:30px; background:url(../images/icon_link.png); background-size:16px 16px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleBoardDefault .listTable tbody tr td.name div {text-align:left;}
+.ModuleBoardDefault .listTable tbody tr td.reg_date div {font-size:10px; font-family:Roboto, tahoma; text-align:center;}
+.ModuleBoardDefault .listTable tbody tr td.hit div {font-size:10px; font-family:Roboto, tahoma; text-align:right;}
+.ModuleBoardDefault .listTable tbody tr td.good div {font-size:10px; font-family:Roboto, tahoma; text-align:right; color:#3b9ad8;}
+.ModuleBoardDefault .listTable tbody tr td.bad div {font-size:10px; font-family:Roboto, tahoma; text-align:right; color:#fbb65c;}
+
+.ModuleBoardDefault .footerTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleBoardDefault .footerTable .buttonLeft {width:100%;}
+.ModuleBoardDefault .footerTable .buttonRight {width:100%; text-align:right;}
+
+.ModuleBoardDefault .searchTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleBoardDefault .searchTable .searchKey {width:100px;}
+.ModuleBoardDefault .searchTable .searchKey .selectControl {width:95px;}
+.ModuleBoardDefault .searchTable .searchInput {width:100%;}
+.ModuleBoardDefault .searchTable .searchInput .liveSearchControl {width:100%; max-width:250px;}
+.ModuleBoardDefault .searchTable .buttonRight {width:90px; text-align:right;}
+
+.ModuleBoardDefault .pagination > li > a, .pagination > li > span {font-family:Roboto, defaultFont;}
+
+.ModuleBoardDefault .postDetail span.block {display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:12px; margin-right:10px;}
+.ModuleBoardDefault .postDetail span.level {font-size:0px;}
+.ModuleBoardDefault .postDetail span.level span {display:inline-block; vertical-align:middle;}
+.ModuleBoardDefault .postDetail span.level span.text {font-size:11px; font-family:Roboto, defaultFont; color:#333; height:28px; line-height:28px; margin-top:2px;}
+.ModuleBoardDefault .postDetail span.level span.text b {color:#df2933;}
+.ModuleBoardDefault .postDetail span.level span.bar {margin:10px 5px; height:8px; border:1px solid #c7c7c7; width:80px; border-radius:4px; background:#e1e1e1; position:relative;}
+.ModuleBoardDefault .postDetail span.level span.percentage {margin:-1px; height:8px; border:1px solid #a6d592; width:50%; border-radius:4px; background:#e8f688; vertical-align:top;}
+.ModuleBoardDefault .postDetail span.level .levelDetail {display:none; position:absolute; z-index:150; width:200px; top:12px; left:-60px; text-align:center;}
+.ModuleBoardDefault .postDetail span.level .levelDetail span.arrowBox {position:relative; background:#e4232c; border:1px solid #fa481d; height:20px; line-height:20px; padding:0 5px; color:#fff; font-size:11px; display:inline-block; vertical-align:middle;}
+.ModuleBoardDefault .postDetail span.level .levelDetail span.arrowBox:after, .ModuleBoardDefault .postDetail span.level .levelDetail span.arrowBox:before {bottom:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleBoardDefault .postDetail span.level .levelDetail span.arrowBox:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#e4232c; border-width:4px; margin-left:-4px;}
+.ModuleBoardDefault .postDetail span.level .levelDetail span.arrowBox:before {border-color:rgba(250, 72, 29, 0); border-bottom-color:#fa481d; border-width:5px; margin-left:-5px;}
+.ModuleBoardDefault .postDetail span.level:hover .levelDetail {display:block;}
+.ModuleBoardDefault .postDetail span.reg_date {font-family:Roboto, defaultFont; color:#666;}
+.ModuleBoardDefault .postDetail span.hit {color:#666;}
+.ModuleBoardDefault .postDetail span.hit b {font-family:Roboto, defaultFont; color:#333;}
+.ModuleBoardDefault .postDetail span.ment {color:#666;}
+.ModuleBoardDefault .postDetail span.ment b {font-family:Roboto, defaultFont; color:#fa481d;}
+.ModuleBoardDefault .postDetail span.good {color:#666;}
+.ModuleBoardDefault .postDetail span.good b {font-family:Roboto, defaultFont; color:#3b9ad8;}
+.ModuleBoardDefault .postDetail span.bad {color:#666;}
+.ModuleBoardDefault .postDetail span.bad b {font-family:Roboto, defaultFont; color:#fbb65c;}
+
+.ModuleBoardDefault .visible-xs .postDetail span.level span.bar {width:50px;}
+.ModuleBoardDefault .visible-xs .postDetail span.level .levelDetail {display:none; position:absolute; z-index:150; width:200px; top:12px; left:-75px; text-align:center;}
+.ModuleBoardDefault .visible-xs .postDetail span.level .levelDetail span.arrowBox {position:relative; background:#e4232c; border:1px solid #fa481d; height:20px; line-height:20px; padding:0 5px; color:#fff; font-size:11px; display:inline-block; vertical-align:middle;}
+.ModuleBoardDefault .visible-xs .postDetail span.level .levelDetail span.arrowBox:after, .ModuleBoardDefault .postDetail span.level .levelDetail span.arrowBox:before {bottom:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleBoardDefault .visible-xs .postDetail span.level .levelDetail span.arrowBox:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#e4232c; border-width:4px; margin-left:-4px;}
+.ModuleBoardDefault .visible-xs .postDetail span.level .levelDetail span.arrowBox:before {border-color:rgba(250, 72, 29, 0); border-bottom-color:#fa481d; border-width:5px; margin-left:-5px;}
+.ModuleBoardDefault .visible-xs .postDetail span.level:hover .levelDetail {display:block;}
+
+.ModuleBoardDefault .postArticle {border-bottom:2px solid #333;}
+
+.ModuleBoardDefault .postHeader {border-bottom:1px solid #ddd;}
+.ModuleBoardDefault .postHeader table {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleBoardDefault .postHeader table td.photo {width:70px;}
+.ModuleBoardDefault .postHeader table td.photo div.frame {width:53px; height:53px; border:1px solid #ddd; margin:5px;}
+.ModuleBoardDefault .postHeader table td.photo div.frame img.ModuleMemberInfoPhoto {width:53px; height:53px;}
+.ModuleBoardDefault .postHeader table td.info {width:100%;}
+.ModuleBoardDefault .postHeader table td.info h4 {font-weight:bold; font-size:16px; color:#333; height:27px; line-height:27px; margin-top:5px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.ModuleBoardDefault .postHeader table td.info .postDetail {height:30px; font-size:0px; margin-bottom:3px;}
+
+.ModuleBoardDefault .postContent {border-top:1px solid #eee;}
+.ModuleBoardDefault .postContent .postDetail {text-align:right; height:16px; line-height:16px;}
+.ModuleBoardDefault .postContent .wrapContent {margin:5px; line-height:2.0;}
+.ModuleBoardDefault .voteButton {margin-top:20px; text-align:center;}
+.ModuleBoardDefault .voteButton button {border:1px solid #e4e4e4; border-right:1px solid #ccc; border-bottom:1px solid #ccc; padding:0px 15px; background:#fff; cursor:pointer; font-size:0px;}
+.ModuleBoardDefault .voteButton button span {display:inline-block; width:25px; height:36px; line-height:36px; font-size:14px; vertical-align:middle; text-align:left;}
+.ModuleBoardDefault .voteButton button b {display:inline-block; height:36px; line-height:36px; font-family:Roboto, defaultFont; font-size:14px; vertical-align:middle;}
+.ModuleBoardDefault .voteButton button.good b {color:#3b9ad8;}
+.ModuleBoardDefault .voteButton button.bad b {color:#fbb65c;}
+.ModuleBoardDefault .voteButton button:hover, .ModuleBoardDefault .voteButton button.selected {background:#e91b23; color:#fff !important;}
+.ModuleBoardDefault .voteButton button:hover b, .ModuleBoardDefault .voteButton button.selected b {color:#fff !important;}
+.ModuleBoardDefault .voteButton button[disabled] {opacity:0.5;}
+
+.ModuleBoardDefault .mentList {background:#f4f4f4; padding:3px 8px;}
+.ModuleBoardDefault .mentList .empty {font-size:12px; height:80px; line-height:80px; text-align:center; color:#666;}
+.ModuleBoardDefault .mentList .deleteMent {background:#c10000; color:#ffff80; padding:10px; text-align:center;}
+.ModuleBoardDefault .mentList .mentItem {padding:5px 0px; border-bottom:1px dotted #c9c9c9;}
+.ModuleBoardDefault .mentList .mentItem:last-child {border-bottom:0px;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader {display:table; table-layout:fixed; width:100%;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader > div {display:table-cell; vertical-align:middle;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .photo {width:52px;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .photo div.frame {width:36px; height:36px; border:1px solid #ddd; margin:4px;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .photo div.frame img.ModuleMemberInfoPhoto {width:36px; height:36px;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .info {width:100%;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .info .author {height:18px; font-size:0px;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button {width:200px; text-align:right;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button {font-size:11px; height:20px; padding:0px 4px; border-radius:2px; cursor:pointer; border:1px solid #c2c8cf; background:#fff; color:#666;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button:hover, .ModuleBoardDefault .mentList .mentItem .button button:focus {background:#eaedf1;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.good span {font-family:Roboto, defaultFont; color:#3b9ad8; font-weight:bold;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.good[class*="selected"] {background:#df2933; color:#fff; border-color:#df2933;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.good[class*="selected"] span {color:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.bad span {font-family:Roboto, defaultFont; color:#fbb65c; font-weight:bold;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.bad[class*="selected"] {background:#df2933; color:#fff; border-color:#df2933;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.bad[class*="selected"] span {color:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.reply {border:1px solid #526ebb; color:#526ebb; background:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.reply:hover, .ModuleBoardDefault .mentList .mentItem .button button.reply:focus, .ModuleBoardDefault .mentList .mentItem .button button.reply[class*="selected"] {background:#526ebb; color:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.modify {border:1px solid #2b916d; color:#2b916d; background:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.modify:hover, .ModuleBoardDefault .mentList .mentItem .button button.modify:focus, .ModuleBoardDefault .mentList .mentItem .button button.modify[class*="selected"] {background:#2b916d; color:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.delete {border:1px solid #df2933; color:#df2933; background:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button button.delete:hover, .ModuleBoardDefault .mentList .mentItem .button button.delete:focus {background:#df2933; color:#fff;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button .fa-reply {transform:rotate(180deg); font-size:8px;}
+.ModuleBoardDefault .mentList .mentItem .mentHeader .button .ip {height:12px; line-height:12px; font-size:11px; font-family:Roboto, defaultFont; color:#999; padding-top:4px;}
+
+.ModuleBoardDefault .mentList .mentItem .mentBlock {position:relative;}
+.ModuleBoardDefault .mentList .mentItem .mentContext {padding:5px 0px 8px 32px; line-height:1.6;}
+
+.ModuleBoardDefault .mentList .mentParent .mentDepth {display:none;}
+.ModuleBoardDefault .mentList .mentChild .mentDepth {width:8px; height:8px; position:absolute; top:7px; left:-10px; border-left:1px solid #eb9472; border-bottom:1px solid #eb9472;}
+
+.ModuleBoardDefault .mentBottom {background:#f4f4f4;}
+.ModuleBoardDefault .mentPagination {margin:0px 8px; text-align:center; border-top:1px dotted #c9c9c9;}
+
+.ModuleBoardDefault .postMentWrite .mentWrite {border-top:2px solid #333;}
+.ModuleBoardDefault .postMentWrite .contextTitle {display:none;}
+.ModuleBoardDefault .mentWrite .btnGroup {margin:5px 0px; text-align:right;}
+.ModuleBoardDefault .mentWrite .wysiwygFrame {background:#fff;}
+.ModuleBoardDefault .mentList .mentWrite .wysiwygFrame {background:#f4f4f4;}
+.ModuleBoardDefault .mentList .mentWrite .fileBox {position:relative; border:1px solid #ccc; max-height:150px;}
+.ModuleBoardDefault .mentList .mentWrite .fileBox .fileList {max-height:150px; background:#e4e4e4; font-size:0px; overflow-y:scroll;}
+
+.ModuleBoardDefault .writeTitle {font-weight:bold; font-size:14px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleBoardDefault .writeTitle i {color:#df2933;}
+
+.ModuleBoardDefault .writeTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleBoardDefault .writeTable td.label {width:20%; background:#f4f4f4; font-size:12px; font-weight:bold; padding:0px 0px 0px 10px;}
+.ModuleBoardDefault .writeTable td.input {width:80%;}
+.ModuleBoardDefault .writeTable td.input .inputBlock, .ModuleBoardDefault .writeTable td.input .inputInline {font-size:12px; line-height:1.6; background:#fff; padding:8px; border-left:1px dotted #ccc;}
+.ModuleBoardDefault .writeTable tr.split {background:#e5e5e5; height:1px; font-size:0px;}
+.ModuleBoardDefault .writeTable tr.splitBottom {height:4px;}
+.ModuleBoardDefault .writeTable tr.splitBottom div {border-top:1px solid #ccc; background:#f4f4f4; height:3px;}
+
+.ModuleBoardDefault .writeTable .wysiwygFrame {background:#fff;}
+
+.ModuleBoardDefault .writeTable .optionBlock {border:1px dotted #ccc; background:#f4f4f4; line-height:1.6; margin-top:5px; padding:8px;}
+.ModuleBoardDefault .writeTable .optionBlock .row {margin:0px !important;}
+.ModuleBoardDefault .writeTable .optionBlock .row div {padding:2px 0px !important;}
+.ModuleBoardDefault .writeTable .optionBlock input {width:13px; height:13px; vertical-align:middle; display:inline-block;}
+.ModuleBoardDefault .writeTable .optionBlock label {height:13px; line-height:13px; vertical-align:middle; display:inline-block; padding-left:5px; font-size:11px; cursor:pointer;}
+.ModuleBoardDefault .writeTable .optionBlock label.disabled {color:#999;}
+
+.ModuleBoardDefault ul.attachment {list-style:none;}
+.ModuleBoardDefault ul.attachment li {padding:3px 0px;}
+.ModuleBoardDefault ul.attachment li a {display:inline-block; text-decoration:none; color:#333; font-size:12px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; max-width:100%; height:20px; line-height:20px;}
+.ModuleBoardDefault ul.attachment li a:hover {color:#df2933;}
+.ModuleBoardDefault ul.attachment li a .filesize {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px; float:right; margin-left:5px; height:20px; line-height:20px;}
+
+.ModuleBoardDefault .wrapContent img {box-shadow:1px 1px 4px rgba(0,0,0,0.15);}
+
+@media (max-width:767px) {
+	.ModuleBoardDefault .mentList .mentItem .mentHeader {position:block;}
+	.ModuleBoardDefault .mentList .mentItem .mentHeader > div {display:inline-block;}
+	.ModuleBoardDefault .mentList .mentItem .mentHeader .info {width:auto;}
+	.ModuleBoardDefault .mentList .mentItem .mentHeader .button {display:block !important; width:100%;}
+	.ModuleBoardDefault .mentList .mentItem .mentHeader .button .ip {display:hidden;}
+}

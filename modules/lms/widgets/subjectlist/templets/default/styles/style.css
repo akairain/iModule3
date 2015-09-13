@@ -1,0 +1,27 @@
+.WidgetLmsSubjectlistDefault {}
+.WidgetLmsSubjectlistDefault .subjectList {background:#fff; box-shadow:0 2px 5px 0 rgba(0,0,0,0.26);}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject {list-style:none;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li {border-bottom:1px solid #ccc;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent {height:5px; background:#ddd; position:relative;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent .bar {height:5px; background:#df2933;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent .view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:10px; right:0px; z-index:50; white-space:nowrap; background:#df2933; display:none;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent .view:after, .WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent .view:before {bottom:100%; right:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent .view:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:4px; margin-left:-4px;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent .view:before {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:5px; margin-left:-5px;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .percent:hover .view {display:block;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .title {font-size:13px; padding:10px; font-weight:bold; height:17px; line-height:16px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; margin-top:3px;}
+
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList {padding:0px 10px 10px 10px;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .row {margin:-5px -5px 0px 0px;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .row .col-xs-6 {padding:5px 5px 0px 0px;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item {display:block; border:1px solid #ddd; text-decoration:none; color:#222;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview {width:100%; padding-bottom:70%; position:relative; background-repeat:no-repeat; background-size:cover; background-position:50% 50%;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview.youtube {background-image:url(../images/youtube.png);}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview.video {background-image:url(../images/video.png);}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview .video {position:absolute; width:40px; height:40px; box-sizing:border-box; box-shadow:1px 1px 1px rgba(0,0,0,0.3); top:calc(50% - 20px); left:calc(50% - 20px); border:2px solid rgba(255,255,255,0.8); font-size:20px; color:rgba(255,255,255,0.8); text-shadow:1px 1px 1px rgba(0,0,0,0.3); text-align:center; line-height:40px; border-radius:20px; padding-left:5px; background:rgba(0,0,0,0.4);}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview .percent {position:absolute; bottom:0px; left:0px; z-index:10; width:100%; height:5px; background:#666;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview .complete {width:100%; height:calc(100% - 5px); background:rgba(109,174,177,0.6); z-index:10; position:absolute; color:#fff;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .preview .complete i {width:40px; height:40px; display:block; position:absolute; top:calc(50% - 20px); left:calc(50% - 20px); line-height:40px; text-align:center; font-size:24px;}
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .youtube {background-image:url(../images/youtube.png);}
+
+.WidgetLmsSubjectlistDefault .subjectList ul.subject > li .itemList .item .title {background:#f4f4f4; padding:3px 8px; font-size:11px; height:20px; line-height:20px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin:0px;}

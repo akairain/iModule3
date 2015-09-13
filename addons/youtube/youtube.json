@@ -1,0 +1,16 @@
+{
+	"title":{
+		"ko":"유튜브"
+	},
+	"target":{
+		"attachment":{
+			"afterDoProcess":[
+				"upload",
+				"load"
+			],
+			"afterDoLayout":[
+				"doLayout"
+			]
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"title":{
+		"ko":"SyntaxHighligher"
+	},
+	"target":{
+		"board":{
+			"afterGetContext":[
+				"view"
+			]
+		},
+		"forum":{
+			"afterGetContext":[
+				"view"
+			]
+		},
+		"apidocument":{
+			"afterGetContext":[
+				"list"
+			]
+		},
+		"qna":{
+			"afterGetContext":[
+				"view"
+			]
+		},
+		"dataroom":{
+			"afterGetContext":[
+				"view"
+			]
+		}
+	}
+}

@@ -1,0 +1,27 @@
+/*
+.WidgetDataroomHistoryDefault {}
+.WidgetDataroomHistoryDefault .historyBox {background:#f4f4f4; padding:20px; line-height:2.0; margin:30px 0px; border-radius:3px;}
+.WidgetDataroomHistoryDefault .historyBox h3 {font-family:Roboto, tahoma; font-size:20px; vertical-align:middle; height:30px; line-height:30px; margin-bottom:20px;}
+.WidgetDataroomHistoryDefault .historyBox h3 span.release {display:inline-block; font-size:11px; color:#fff; background:#000; margin:0px 0px 3px 10px; padding:0px 7px; border-radius:3px; font-weight:normal; vertical-align:middle; font-family:Roboto, tahoma; height:20px; line-height:20px;}
+
+.WidgetDataroomHistoryDefault .historyBox ul {list-style:none;}
+.WidgetDataroomHistoryDefault .historyBox ul li {padding:3px 0px; line-height:2.0;}
+.WidgetDataroomHistoryDefault .historyBox ul li span {display:inline-block; height:14px; line-height:14px; border:1px solid #000; padding:0px 4px; vertical-align:middle; margin-right:5px; font-family:Roboto, tahoma; font-size:10px; width:40px; text-align:center;}
+.WidgetDataroomHistoryDefault .historyBox ul li span.NEW {border-color:#e4232c; color:#e4232c;}
+.WidgetDataroomHistoryDefault .historyBox ul li span.UPDATE {border-color:#2980b9; color:#2980b9;}
+.WidgetDataroomHistoryDefault .historyBox ul li span.BUGFIX {border-color:#666; color:#666;}
+*/
+.WidgetDataroomHistoryDefault {}
+.WidgetDataroomHistoryDefault .historyBox {background:#f4f4f4;line-height:2.0; margin:30px 0px; border-radius:5px; border:1px solid #ddd; position:relative; overflow:hidden; padding-top:70px; z-index:0;}
+.WidgetDataroomHistoryDefault .historyBox h3 {font-family:Roboto, tahoma; font-size:20px; vertical-align:middle; width:100%; height:70px; line-height:30px; background:#fff; padding:20px; border-radius:3px 3px 0px 0px; position:absolute; top:0px; left:0px; box-sizing:border-box; z-index:5;}
+.WidgetDataroomHistoryDefault .historyBox div.release {position:absolute; top:0px; right:20px; font-size:11px; color:#fff; background:#000; padding:25px 10px 0px 10px; border-radius:0px 0px 4px 4px; font-weight:normal; vertical-align:middle; font-family:Roboto, tahoma; height:20px; line-height:20px; z-index:5;}
+
+.WidgetDataroomHistoryDefault .historyBox ul {list-style:none; padding:10px 20px;}
+.WidgetDataroomHistoryDefault .historyBox ul li {padding:3px 0px; line-height:2.0;}
+.WidgetDataroomHistoryDefault .historyBox ul li span {display:inline-block; height:16px; line-height:16px; padding:0px 4px; vertical-align:middle; margin-right:5px; font-family:Roboto, tahoma; font-size:10px; width:40px; text-align:center;}
+.WidgetDataroomHistoryDefault .historyBox ul li span.NEW {background:#e4232c; color:#fff;}
+.WidgetDataroomHistoryDefault .historyBox ul li span.UPDATE {background:#2980b9; color:#fff;}
+.WidgetDataroomHistoryDefault .historyBox ul li span.BUGFIX {background:#666; color:#fff;}
+
+.WidgetDataroomHistoryDefault .icon {display:block; position:absolute; bottom:-30px; right:-20px; color:#ededed; font-size:200px; z-index:1; display:none;}
+.WidgetDataroomHistoryDefault .historyBox:hover .icon {display:block;}

@@ -1,0 +1,206 @@
+{
+	"loopnum":"번호",
+	"title":"자료명",
+	"homepage":"제작자 홈페이지",
+	"license":"라이센스",
+	"price":"판매가격",
+	"logo":"자료로고",
+	"name":"제작자",
+	"reg_date":"배포일",
+	"version":"버전",
+	"history":"버전히스토리",
+	"file":"자료파일",
+	"hit":"조회",
+	"ment":"댓글",
+	"good":"추천",
+	"bad":"비추",
+	"qna":"문의답변",
+	"detail":"상세정보",
+	"category":"카테고리",
+	"filename":"파일이름",
+	"filesize":"파일용량",
+	"hit":"다운수",
+	"list":{
+		"title":"목록"
+	},
+	"view":{
+		"title":"자료보기",
+		"attachment":"첨부파일"
+	},
+	"postWrite":{
+		"write":"신규자료등록하기",
+		"modify":"자료수정하기",
+		"loading":"등록중...",
+		"help":{
+			"title":{
+				"error":"자료명을 입력하여 주십시오."
+			},
+			"license":{
+				"default":"기타 라이센스의 경우 프로그램소개에 라이센스를 명시하여 주십시오.",
+				"error":"라이센스는 반드시 선택하여야 합니다."
+			},
+			"price":{
+				"default":"판매가격(포인트결제)을 숫자로 입력하세요. (입력하지 않을 경우 무료)"
+			},
+			"logo":{
+				"default":"자료를 가장 잘 나타내는 목록에 보일 로고이미지를 선택하여 주십시오.",
+				"error":"이미지파일(GIF,JPG,PNG)만 등록가능합니다."
+			},
+			"content":{
+				"error":"내용을 입력하여 주십시오."
+			},
+			"category":{
+				"error":"이 게시판은 카테고리를 반드시 선택하도록 설정되어 있습니다."
+			}
+		},
+		"option":{
+			"is_ment":"이 자료에 댓글을 허용합니다.",
+			"is_push":"이 자료에 댓글이 입력될 경우 알림을 받습니다."
+		},
+		"option_short":{
+			"is_ment":"댓글허용",
+			"is_push":"알림받음"
+		}
+	},
+	"versionWrite":{
+		"title":"신규버전등록하기",
+		"help":{
+			"version":{
+				"default":"신규버전을 1.0 또는 1.0.1 형식으로 입력하여 주십시오.",
+				"lowVersion":"등록된 최신버전보다 입력한 버전이 낮습니다.",
+				"error":"버전정보를 입력하여 주십시오."
+			},
+			"file":{
+				"default":"ZIP압축파일만 등록가능합니다.",
+				"error":"자료파일은 반드시 등록되어야 합니다.",
+				"notzip":"ZIP압축파일만 등록가능합니다."
+			},
+			"history":{
+				"default":"신규버전에서 변경된 사항을 작성하여 주십시오. [NEW], [UPDATE], [BUGFIX] 를 입력하면 아이콘으로 변경되어 나타납니다.",
+				"error":"버전히스토리를 입력하여 주십시오."
+			}
+		},
+		"loading":"등록중..."
+	},
+	"qnaWrite":{
+		"write":"문의 작성하기",
+		"modify":"문의 수정하기",
+		"writeAnswer":"답변 작성하기",
+		"modifyAnswer":"답변 수정하기",
+		"title":"제목",
+		"help":{
+			"title":{
+				"error":"문의내용을 파악하기 쉽게 제목을 입력하여 주십시오."
+			},
+			"content":{
+				"error":"문의내용 입력하여 주십시오."
+			}
+		},
+		"option":{
+			"is_push":"이 댓글에 답변댓글이 입력될 경우 알림을 받습니다."
+		},
+		"option_short":{
+			"is_push":"알림받음"
+		},
+		"loading":"등록중..."
+	},
+	"mentWrite":{
+		"write":"댓글 작성하기",
+		"modify":"댓글 수정하기",
+		"reply":"댓글 답변하기",
+		"overdepth":"더이상 답변댓글을 등록할 수 없습니다.",
+		"success":"댓글을 성공적으로 등록하였습니다.",
+		"loading":"등록중...",
+		"help":{
+			"content":{
+				"error":"내용을 입력하여 주십시오."
+			}
+		},
+		"option":{
+			"is_reply":"이 댓글에 답변댓글을 허용합니다.",
+			"is_push":"이 댓글에 답변댓글이 입력될 경우 알림을 받습니다."
+		},
+		"option_short":{
+			"is_reply":"답변댓글허용",
+			"is_push":"알림받음"
+		},
+		"error":{
+			"deleteSource":"원글이 삭제되어 답변댓글을 등록할 수 없습니다."
+		}
+	},
+	"vote":{
+		"good":"해당글을 추천하였습니다.",
+		"bad":"해당글을 반대하였습니다.",
+		"mypost":"자신의 글은 투표할 수 없습니다.",
+		"duplicated":"이미 해당글에 투표하였습니다."
+	},
+	"qnaList":{
+		"empty":"등록된 문의사항이 없습니다."
+	},
+	"mentList":{
+		"empty":"입력된 댓글이 없습니다."
+	},
+	"postDelete":{
+		"title":"자료배포중단",
+		"confirm":"해당 자료의 배포를 정말 중단하시겠습니까?<br>배포중단 후 재배포를 하려면 신규자료등록을 하여야 합니다.",
+		"success":"성공적으로 배포중단 처리하였습니다."
+	},
+	"answerDelete":{
+		"title":"답변삭제",
+		"confirm":"해당 답변을 삭제하시겠습니까?",
+		"success":"답변을 성공적으로 삭제하였습니다."
+	},
+	"mentDelete":{
+		"title":"댓글삭제",
+		"confirm":"해당 댓글을 정말 삭제하시겠습니까?",
+		"success":"댓글을 성공적으로 삭제하였습니다."
+	},
+	"download":{
+		"download_free":"다운로드",
+		"download_buy":"구매하기",
+		"confirm_free":"해당 자료를 무료로 다운로드 받으시겠습니까?<br>다운로드받은 자료는 업데이트버전을 포함하여 구입목록에서 언제라도 무료로 다운로드 가능합니다.",
+		"confirm_buy":"해당 자료를 위의 금액에 구매하시겠습니까?<br>구매한 자료는 업데이트버전을 포함하여 구입목록에서 언제라도 무료로 다운로드 가능합니다."
+	},
+	"button":{
+		"reply":"댓글",
+		"reply_cancel":"댓글취소",
+		"modify":"수정",
+		"modify_cancel":"수정취소",
+		"list":"목록",
+		"write":"자료등록하기",
+		"submit":"등록하기",
+		"file":"파일선택",
+		"delete":"삭제",
+		"confirm":"확인",
+		"cancel":"취소",
+		"lock":"배포중단",
+		"unlock":"배포재개",
+		"write_version":"신규버전등록",
+		"download_buy":"구매하기",
+		"download_buyed":"재다운로드",
+		"download_free":"무료다운로드"
+	},
+	"error":{
+		"unregistered":"등록되지 않은 게시판아이디입니다.",
+		"required":"필수입력값이 입력되지 않았습니다.",
+		"notFound":"게시물 또는 댓글을 찾을 수 없습니다.",
+		"notLogged":"먼저 로그인을 하여 주십시오.",
+		"incorrectPassword":"패스워드가 일치하지 않습니다.",
+		"forbidden":"요청한 작업을 처리할 수 있는 권한이 없습니다.",
+		"deletedeMent":"관리자 또는 작성자에 의해 삭제된 댓글입니다.",
+		"notEnoughPoint":"포인트가 부족합니다. 먼저 포인트충전 후 구매하여 주십시오.",
+		"mypost":"자신의 자료에는 질문을 남길 수 없습니다.",
+		"myquestion":"자신의 질문에는 답변을 남길 수 없습니다."
+	},
+	"loading":"처리중...",
+	"push":{
+		"question":"{from}님이 {title} 자료에 질문을 남겼습니다.",
+		"questions":"{from}님 외 {count}명이 {title} 자료에 질문을 남겼습니다.",
+		"answer":"{from}님이 {title} 질문에 답변을 남겼습니다.",
+		"answers":"{from}님이 외 {count}명이 {title} 질문에 답변을 남겼습니다.",
+		"ment":"{from}님이 {title} 자료에 댓글을 남겼습니다.",
+		"ments":"{from}님이 외 {count}명이 {title} 자료에 댓글을 남겼습니다.",
+		"replyment":"{from}님이 {title} 게시물에 남긴 회원님의 댓글에 답변댓글을 남겼습니다.",
+		"replyments":"{from}님 외 {count}명이 {title} 게시물에 남긴 회원님의 댓글에 답변댓글을 남겼습니다."
+	}
+}

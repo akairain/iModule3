@@ -1,0 +1,17 @@
+* {margin:0px; padding:0px;}
+body {background:#eeeeee; padding-top:60px; font-family:defaultFont; font-size:12px;}
+
+#iModuleNavigation {width:100%; height:60px; background:#fff; position:fixed; top:0; left:0; box-shadow:rgba(0,0,0,0.0784314) 0px 1px 0px 0px, rgba(0,0,0,0.0196078) 0px 2px 0px 0px; z-index:2000;}
+#iModuleNavigation h1 {width:250px; height:60px; background:url(../images/logo.png) no-repeat; background-size:250px 60px; display:inline-block; vertical-align:top; font-size:0px;}
+#iModuleNavigation ul {display:inline-block; height:60px; vertical-align:top; list-style:none; margin-left:2px;}
+#iModuleNavigation ul li {display:inline-block; height:60px; position:relative; margin-left:5px;}
+#iModuleNavigation ul li a {font-size:13px; display:inline-block; height:40px; line-height:40px; padding:0px 15px; margin-top:19px; background:#fff; color:#333; text-decoration:none; border:1px solid #fff; border-bottom:0px;}
+#iModuleNavigation ul li a:hover {background:#f3f3f3; color:#000;}
+#iModuleNavigation ul li .hideShadow {position:absolute; background:#eeeeee; width:100%; height:5px; top:60px; left:0px; display:none;}
+#iModuleNavigation ul li.selected a {background:#eeeeee; color:#f65756; font-weight:bold; border-color:#ccc;}
+#iModuleNavigation ul li.selected .hideShadow {display:block;}
+
+.intro {background:url(../images/intro.jpg); background-size:cover; background-position:50% 50%; height:300px; box-shadow:rgba(0,0,0,0.0784314) 0px 1px 0px 0px, rgba(0,0,0,0.0196078) 0px 2px 0px 0px; margin-bottom:20px;}
+
+.intro h2 {font-size:54px; display:block; color:#fff; text-shadow:1px 1px 3px rgba(0,0,0,0.5); text-align:center; font-family:Roboto; height:80px; padding-top:100px;}
+.intro p {font-size:24px; display:block; color:#fff; text-shadow:1px 1px 3px rgba(0,0,0,0.5); text-align:center; font-weight:200;}

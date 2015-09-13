@@ -1,0 +1,8 @@
+{
+	"title":{
+		"ko":"게시판관리"
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":false
+}

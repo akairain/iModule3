@@ -1,0 +1,33 @@
+.ModuleDonation .progress {width:100%; height:20px; box-sizing:border-box; border:1px solid #6593cf; background:url(../images/progress_off.gif); position:relative;}
+.ModuleDonation .progress[data-position=top] {margin-bottom:10px;}
+.ModuleDonation .progress .text {position:absolute; width:100%; height:18px; top:0; left:0; line-height:18px; text-align:center; font-family:Roboto; font-size:11px; color:#2f5d99; text-shadow:1px 1px 1px #fff; z-index:10; font-weight:bold;}
+.ModuleDonation .progress .graph {position:absolute; width:50%; height:18px; top:0; left:0; background:url(../images/progress_on.gif); border-right:1px solid #6593cf;}
+.ModuleDonation .progress .percentage {position:absolute; background:#e4232c; border:1px solid #fa481d; height:20px; line-height:20px; padding:0 5px; color:#fff; font-size:11px; display:inline-block; vertical-align:middle; z-index:100;}
+.ModuleDonation .progress[data-position=top] .percentage {bottom:22px;}
+.ModuleDonation .progress[data-position=bottom] .percentage {top:22px;}
+.ModuleDonation .progress[data-position=top] .percentage:after, .ModuleDonation .progress[data-position=top] .percentage:before {top:100%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleDonation .progress[data-position=bottom] .percentage:after, .ModuleDonation .progress[data-position=bottom] .percentage:before {bottom:100%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleDonation .progress[data-position=top] .percentage:after {border-color:rgba(228, 35, 44, 0); border-top-color:#e4232c; border-width:5px; margin-left:-5px;}
+.ModuleDonation .progress[data-position=bottom] .percentage:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#e4232c; border-width:5px; margin-left:-5px;}
+.ModuleDonation .progress[data-type=left] .percentage {margin-left:-9px;}
+.ModuleDonation .progress[data-type=right] .percentage {margin-right:-13px;}
+.ModuleDonation .progress[data-type=left] .percentage:after, .ModuleDonation .progress[data-type=left] .percentage:before {margin-right:0px; left:8px;}
+.ModuleDonation .progress[data-type=right] .percentage:after, .ModuleDonation .progress[data-type=right] .percentage:before {margin-right:0px; right:8px;}
+
+.ModuleDonation .defaultTable .fa-won {float:left; width:30px; height:30px; line-height:30px; text-align:center; color:#999;}
+.ModuleDonation .defaultTable .roboto {font-family:Roboto; font-size:11px;}
+.ModuleDonation .defaultTable .gift {font-size:0px; padding:0px;}
+.ModuleDonation .defaultTable .gift div {padding:0px 8px; width:50%; height:30px; line-height:30px; float:left; box-sizing:border-box; font-size:11px; font-family:Roboto; text-align:right;}
+.ModuleDonation .defaultTable .gift div span {font-weight:bold;}
+.ModuleDonation .defaultTable .gift div span, .ModuleDonation .defaultTable .gift div i {float:left; height:30px; line-height:30px;}
+.ModuleDonation .defaultTable .price3 {color:green;}
+.ModuleDonation .defaultTable .price4 {color:#0070dd;}
+.ModuleDonation .defaultTable .price5 {color:#a335ee;}
+.ModuleDonation .defaultTable .price6 {color:#ff8000;}
+.ModuleDonation tr[data-type=EXTEND] {display:none;}
+.ModuleDonation .warning {margin-top:5px;}
+
+.ModuleDonation button[type=submit] {margin-top:5px; width:100%;}
+
+#ModuleDonationTotal {font-size:18px; color:#ff8000; font-family:Roboto; font-weight:200;}
+#ModuleDonationAverage {display:none; color:#666; font-family:Roboto; font-weight:200; float:right; font-size:11px; padding-top:5px;}

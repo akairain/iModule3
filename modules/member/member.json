@@ -1,0 +1,8 @@
+{
+	"title":{
+		"ko":"회원"
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":true
+}

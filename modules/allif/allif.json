@@ -1,0 +1,15 @@
+{
+	"title":{
+		"ko":"AllIF 모듈"
+	},
+	"target":{
+		"qna":{
+			"beforeDoProcess":[
+				"postWrite"
+			]
+		}
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":true
+}

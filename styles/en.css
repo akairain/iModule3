@@ -1,0 +1,26 @@
+@font-face {
+	font-family:"defaultFont";
+	font-style:normal;
+	font-weight:200;
+	src:url("../fonts/NanumBarunGothic-Light.eot");
+	src:url("../fonts/NanumBarunGothic-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Light.woff") format("woff"), url("../fonts/NanumBarunGothic-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"defaultFont";
+	font-style:normal;
+	font-weight:400;
+	src:url("../fonts/NanumBarunGothic-Regular.eot");
+	src:url("../fonts/NanumBarunGothic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Regular.woff") format("woff"), url("../fonts/NanumBarunGothic-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family:"defaultFont";
+	font-style:normal;
+	font-weight:700;
+	src:url("../fonts/NanumBarunGothic-Bold.eot");
+	src:url("../fonts/NanumBarunGothic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/NanumBarunGothic-Bold.woff") format("woff"), url("../fonts/NanumBarunGothic-Bold.ttf") format("truetype");
+}
+
+.systemFont {font-family:"Apple SD Gothic Neo", "malgun gothic", dotum, sans-serif;}
+body {font-family:Roboto, defaultFont;}

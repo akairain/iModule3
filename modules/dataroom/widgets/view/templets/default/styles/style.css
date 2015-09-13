@@ -1,0 +1,33 @@
+.WidgetDataroomViewDefault .viewPanel {border-top:2px solid #333;}
+.WidgetDataroomViewDefault .viewPanel .itemBox {border:1px solid #ddd; border-top:0px;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel {display:table; width:100%; table-layout:fixed;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .logoPanel {display:table-cell; width:330px; vertical-align:top;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .logoPanel .logo {width:100%; padding-bottom:100%; background-size:cover;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel {display:table-cell; width:100%; vertical-align:top; background:#fbfbfb;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail {padding:20px;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail h4 {font-size:18px; height:30px; line-height:30px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .description {font-size:12px; color:#666; height:20px; line-height:20px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .price i {font-size:14px;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .price {font-size:16px; color:#df2933; font-weight:bold; margin:10px 0px; font-family:Roboto, defaultFont;}
+
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .splitLine {margin-top:10px; border-top:1px solid #ddd; height:10px;}
+
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .tag {display:table; width:100%; table-layout:fixed;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .tag .label {width:85px; display:table-cell; vertical-align:top; padding:5px 0px; line-height:1.6;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .tag .value {width:100%; display:table-cell; vertical-align:top; padding:5px 0px; line-height:1.6;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .tag .version {color:#df2933; font-family:Roboto, defaultFont; font-weight:bold; font-size:12px;}
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .tag .version .date {font-size:11px; font-weight:normal; color:#999;}
+
+.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .button, .WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .buttonSplit {text-align:right;}
+
+.postContext {padding-top:20px; line-height:2.0;}
+
+@media (max-width:767px) {
+	.WidgetDataroomViewDefault .viewPanel .itemPanel {display:block;}
+	.WidgetDataroomViewDefault .viewPanel .itemPanel .logoPanel {display:block; width:auto;}
+	.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel {display:block; width:auto;}
+	.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail {padding:10px;}
+	.WidgetDataroomViewDefault .viewPanel .itemPanel .detailPanel .detail .button button {display:block; width:100%;}
+}

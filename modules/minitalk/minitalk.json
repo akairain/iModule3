@@ -1,0 +1,15 @@
+{
+	"title":{
+		"ko":"미니톡관리"
+	},
+	"target":{
+		"qna":{
+			"beforeDoProcess":[
+				"postWrite"
+			]
+		}
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":false
+}

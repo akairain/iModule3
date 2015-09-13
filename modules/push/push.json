@@ -1,0 +1,8 @@
+{
+	"title":{
+		"ko":"알림서비스"
+	},
+	"languages":["ko"],
+	"install":true,
+	"global":true
+}

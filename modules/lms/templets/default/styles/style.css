@@ -1,0 +1,567 @@
+.ModuleLmsDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleLmsDefault .contextTitle i {color:#df2933; font-size:12px;}
+.ModuleLmsDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.ModuleLmsDefault .contextTab {height:30px; border-bottom:2px solid #333; position:relative; z-index:0;}
+.ModuleLmsDefault .contextTab ul {list-style:none; position:absolute; top:0px; left:0px; width:100%; height:32px; font-size:0px;}
+.ModuleLmsDefault .contextTab li {width:25%; height:30px; line-height:30px; border:1px solid #ddd; border-bottom:0px; border-right:0px; box-sizing:border-box; font-size:12px; background:#f4f4f4; text-align:center; display:inline-block; vertical-align:top; cursor:pointer;}
+.ModuleLmsDefault .contextTab li.selected {height:32px; border-color:#333 !important; border-bottom:2px solid #fff !important; background:#fff; font-weight:bold;}
+.ModuleLmsDefault .contextTab li.selected + li {border-left:1px solid #333;}
+.ModuleLmsDefault .contextTab li:last-child {border-right:1px solid #ddd;}
+.ModuleLmsDefault .contextTab li span {font-family:Roboto; color:#df2933;}
+.ModuleLmsDefault .contextTab li a {display:block; height:30px; line-height:30px; color:#000; text-decoration:none;}
+
+.ModuleLmsDefault div.labels {font-size:0px;}
+.ModuleLmsDefault a.label {display:inline-block; background:#e4edf4; color:#3e6d8e; text-decoration:none; padding:0px 7px; height:20px; line-height:20px; margin:3px 3px 0px 0px; font-size:12px; border-radius:3px;}
+
+.ModuleLmsDefault .blankSpace {width:15px; height:15px;}
+
+.ModuleLmsDefault .classImage {position:relative; width:100%; height:0; padding-bottom:133%; overflow:hidden; background-color:#666; background-size:cover; border:1px solid #ccc; border-radius:5px;}
+.ModuleLmsDefault .classCover {display:block; position:absolute; z-index:10; width:100%; height:100%; top:0px; left:0px;}
+.ModuleLmsDefault .classImage .classTitle {position:absolute; right:10px; bottom:15px; text-align:right; text-shadow:1px 1px 1px rgba(0,0,0,0.4);}
+.ModuleLmsDefault .classImage .classTitle .title {font-size:16px; font-weight:bold; line-height:1.6; color:#fff; word-break:break-all; background:rgba(0,0,0,0.2); padding:3px 5px; margin:2px; margin-left:10px;}
+.ModuleLmsDefault .classImage .classTitle .author {color:#fff; font-size:12px; height:16px; line-height:16px; padding:5px;}
+.ModuleLmsDefault .classImage .classTitle .info {color:#fff; height:0px; overflow:hidden; line-height:25px;}
+.ModuleLmsDefault .classImage .classTitle .info i {margin:0px 5px;}
+
+.ModuleLmsDefault .percent {height:5px; background:#ddd; position:relative;}
+.ModuleLmsDefault .percent .bar {height:5px; background:#df2933;}
+.ModuleLmsDefault .percent .view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:10px; right:0px; z-index:50; white-space:nowrap; background:#df2933; display:none;}
+.ModuleLmsDefault .percent .view:after, .ModuleLmsDefault .percent .view:before {bottom:100%; right:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleLmsDefault .percent .view:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:4px; margin-left:-4px;}
+.ModuleLmsDefault .percent .view:before {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:5px; margin-left:-5px;}
+.ModuleLmsDefault .percent:hover .view {display:block;}
+
+.ModuleLmsDefault .listPanel .item {margin-top:5px;}
+
+.ModuleLmsDefault .viewPanel {border-bottom:2px solid #333;}
+.ModuleLmsDefault .viewPanel .itemBox {border:1px solid #ddd; border-top:0px;}
+.ModuleLmsDefault .viewPanel .itemPanel {display:table; width:100%; table-layout:fixed;}
+.ModuleLmsDefault .viewPanel .itemPanel .coverPanel {display:table-cell; width:330px; vertical-align:top;}
+.ModuleLmsDefault .viewPanel .itemPanel .coverPanel .classImage {border:0px; border-radius:0px;}
+.ModuleLmsDefault .viewPanel .itemPanel .coverPanel .classImage .classTitle .title {font-size:24px;}
+.ModuleLmsDefault .viewPanel .itemPanel .coverPanel .classImage .classTitle .author {font-size:16px;}
+.ModuleLmsDefault .viewPanel .itemPanel .coverPanel .classImage .classTitle .detail {font-size:16px; height:30px; line-height:30px; color:rgba(255,255,255,0.95);}
+.ModuleLmsDefault .viewPanel .itemPanel .coverPanel .classImage .classTitle .detail i {margin:0px 5px 0px 10px;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel {display:table-cell; width:100%; vertical-align:top; background:#fbfbfb;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail {padding:20px;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail h4 {font-size:19px; height:30px; line-height:30px; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .description {margin-top:30px; font-size:12px; color:#666; height:180px; line-height:20px; overflow-y:auto;}
+
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .price i {font-size:14px;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .price {font-size:16px; color:#df2933; font-weight:bold; margin:10px 0px; font-family:Roboto, defaultFont;}
+
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .splitLine {margin-top:10px; border-top:1px solid #ddd; height:10px;}
+
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .tag {display:table; width:100%; table-layout:fixed;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .tag .label {width:85px; display:table-cell; vertical-align:top; padding:5px 0px; line-height:1.6;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .tag .value {width:100%; display:table-cell; vertical-align:top; padding:5px 0px; line-height:1.6;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .tag .version {color:#df2933; font-family:Roboto, defaultFont; font-weight:bold; font-size:12px;}
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .tag .version .date {font-size:11px; font-weight:normal; color:#999;}
+
+.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .button, .ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .buttonSplit {text-align:right;}
+
+.ModuleLmsDefault .viewPanel .actionButton {margin:10px 0px 5px 0px; font-size:0px; height:35px;}
+.ModuleLmsDefault .viewPanel .actionButton button.btn {margin:0px 0px 5px 0px;}
+.ModuleLmsDefault .viewPanel .actionButton a.btn {float:right; margin-left:5px;}
+
+.ModuleLmsDefault .subjectBox {background:#fff; box-shadow:0 2px 5px 0 rgba(0,0,0,0.26); margin:15px 0px;}
+.ModuleLmsDefault .subjectBox h5 {font-size:16px; line-height:2.0; font-weight:bold; padding:15px;}
+.ModuleLmsDefault .subjectBox h5 i.fa-file-text-o {color:#df2933; margin-right:5px;}
+.ModuleLmsDefault .subjectBox .row {padding:0px 15px;}
+.ModuleLmsDefault .subjectBox .actionButton {text-align:right; padding:15px;}
+.ModuleLmsDefault .subjectBox .actionButton button {margin-left:5px !important;}
+
+.ModuleLmsDefault .subjectBox .configs {display:inline-block; float:right; position:relative; font-weight:normal;}
+.ModuleLmsDefault .subjectBox .configs button {width:20px; height:20px; color:#666; cursor:pointer; font-size:16px; text-align:center; border:0px; background:transparent;}
+
+.ModuleLmsDefault .subjectBox .configs ul {position:absolute; background:#fff; box-shadow:0 6px 12px rgba(0,0,0,0.175); border:1px solid 0 6px 12px rgba(0,0,0,0.15); border-top:1px solid #eee; display:none; z-index:2000; list-style:none;}
+.ModuleLmsDefault .subjectBox .configs ul.menu {top:20px; right:0px; width:150px;}
+.ModuleLmsDefault .subjectBox .configs ul.submenu {top:10px; left:140px; min-width:150px; max-height:200px; overflow-y:auto;}
+.ModuleLmsDefault .subjectBox .configs ul > li {border-bottom:1px solid #eee; height:40px; position:relative; padding:0px 12px; height:40px; line-height:40px; white-space:nowrap; display:block; color:#333; font-size:12px; cursor:pointer;}
+.ModuleLmsDefault .subjectBox .configs ul > li:hover {background:#e4232c; color:#fff;}
+.ModuleLmsDefault .subjectBox .configs ul > li i.fa-caret-right {float:right; margin-top:13px; vertical-align:top;}
+.ModuleLmsDefault .subjectBox .configs ul > li:last-child {border-bottom:0px;}
+.ModuleLmsDefault .subjectBox .configs ul > li:hover ul.submenu {display:block;}
+
+.ModuleLmsDefault .subjectBox .post {border:1px solid #ddd; background:#f4f4f4;}
+.ModuleLmsDefault .subjectBox .post .preview {width:100%; padding-bottom:60%; background-repeat:no-repeat; background-size:cover; background-position:50% 50%; position:relative; cursor:pointer;}
+.ModuleLmsDefault .subjectBox .post .preview.youtube {background-image:url(../images/youtube.png);}
+.ModuleLmsDefault .subjectBox .post .preview.video {background-image:url(../images/video.png);}
+
+.ModuleLmsDefault .subjectBox .post .preview .video {position:absolute; width:40px; height:40px; box-sizing:border-box; box-shadow:1px 1px 1px rgba(0,0,0,0.3); top:calc(50% - 20px); left:calc(50% - 20px); border:2px solid rgba(255,255,255,0.8); font-size:20px; color:rgba(255,255,255,0.8); text-shadow:1px 1px 1px rgba(0,0,0,0.3); text-align:center; line-height:40px; border-radius:20px; padding-left:5px; background:rgba(0,0,0,0.4);}
+.ModuleLmsDefault .subjectBox .post .preview .percent {position:absolute; left:0px; bottom:0px; width:100%;}
+.ModuleLmsDefault .subjectBox .post .preview .complete {width:100%; height:calc(100% - 5px); background:rgba(109,174,177,0.6); z-index:10; position:absolute; color:#fff;}
+.ModuleLmsDefault .subjectBox .post .preview .complete i {width:40px; height:40px; display:block; position:absolute; top:calc(50% - 20px); left:calc(50% - 20px); line-height:40px; text-align:center; font-size:24px;}
+.ModuleLmsDefault .subjectBox .post .title {padding:8px; line-height:20px; height:40px; font-size:13px; cursor:pointer;}
+.ModuleLmsDefault .subjectBox .post .reg_date {padding:8px;}
+.ModuleLmsDefault .subjectBox .post .reg_date span.time {display:inline-block; height:20px; line-height:20px; color:#21bbd7; font-family:Roboto; font-size:11px; vertical-align:top;}
+
+.ModuleLmsDefault .viewBox {background:#fff; box-shadow:0 2px 5px 0 rgba(0,0,0,0.26); margin:15px 0px; padding:15px;}
+.ModuleLmsDefault .viewBox h5 {font-size:16px; line-height:2.0; font-weight:bold; margin-bottom:10px;}
+.ModuleLmsDefault .viewBox h5 i {color:#df2933; margin-right:5px;}
+
+#ModuleLmsViewBar {position:fixed; left:0px; bottom:0px; width:100%; height:80px; background:#fff; box-shadow:0px -2px 5px 0 rgba(0,0,0,0.26); z-index:50;}
+#ModuleLmsProgressBar {height:8px; position:relative; background:#777; cursor:pointer;}
+
+#ModuleLmsViewBar .mentWrite {}
+#ModuleLmsViewBar .mentWrite .mentInput {display:table; width:100%; table-layout:fixed;}
+#ModuleLmsViewBar .mentWrite .mentInput .photo {width:35px; height:30px; display:table-cell; vertical-align:top;}
+#ModuleLmsViewBar .mentWrite .mentInput .photo img {width:30px; height:30px; border-radius:3px;}
+#ModuleLmsViewBar .mentWrite .mentInput .button {width:160px; height:30px; display:table-cell; vertical-align:top; font-size:0px;}
+#ModuleLmsViewBar .mentWrite .mentInput .button button {width:30px; height:30px; line-height:30px; text-align:center; margin-right:2px; font-size:16px; padding:0px;}
+#ModuleLmsViewBar .mentWrite .mentInput .textInput {width:100%; height:30px; display:table-cell; vertical-align:top;}
+#ModuleLmsViewBar .mentWrite .mentInput .actionButton {width:300px; height:30px; display:table-cell; vertical-align:top; font-size:0px;}
+#ModuleLmsViewBar .mentWrite .mentInput .actionButton button {margin-left:5px;}
+
+#ModuleLmsPostionPin {position:absolute; border:5px solid #eee; width:6px; height:6px; background:#aeaeae; border-radius:8px; top:-4px; left:0%; margin-left:-8px; box-shadow:1px 1px 1px rgba(0,0,0,0.2); z-index:10;}
+#ModuleLmsPostionPin:hover {background:#df2933;}
+#ModuleLmsPositionBar {height:8px; position:absolute; top:0px; left:0px; background:#df2933; cursor:pointer;}
+
+#ModuleLmsProgressBar .mentIcon {position:absolute; width:20px; height:20px; left:0px; bottom:6px; border:2px solid #fff; z-index:5; margin-left:-12px; box-shadow:1px 1px 2px rgba(0,0,0,0.4); background:#fff;}
+#ModuleLmsProgressBar .mentIcon:hover {z-index:6;}
+#ModuleLmsProgressBar .mentIcon .ment {position:relative; width:20px; height:20px;}
+#ModuleLmsProgressBar .mentIcon .ment .photo {width:20px; height:20px; background-repeat:no-repeat; background-size:cover; background-position:50% 50%; font-size:0px;}
+#ModuleLmsProgressBar .mentIcon .ment .content {max-width:150px; height:20px; font-size:12px; line-height:20px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0px 3px; position:absolute; top:-2px; background:#fff; border:2px solid #fff; display:none;}
+#ModuleLmsProgressBar .mentIcon .ment .content.left {box-shadow:1px 1px 2px rgba(0,0,0,0.4);}
+#ModuleLmsProgressBar .mentIcon .ment .content.right {box-shadow:-1px 1px 2px rgba(0,0,0,0.4);}
+#ModuleLmsProgressBar .mentIcon:hover .content {display:block;}
+#ModuleLmsProgressBar .mentIcon:after, #ModuleLmsYoutubePlayer .mentIcon:before {top:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsProgressBar .mentIcon:after {border-color:rgba(228, 35, 44, 0); border-top-color:#fff; border-width:4px; margin-left:-4px;}
+#ModuleLmsProgressBar .mentIcon:before {border-color:rgba(228, 35, 44, 0); border-top-color:#fff; border-width:5px; margin-left:-5px;}
+
+#ModuleLmsTrackingBar {position:absolute; bottom:0px; left:0px; display:table; width:100%; height:3px; table-layout:fixed; z-index:2;}
+#ModuleLmsTrackingBar > div {display:table-cell; width:4px; height:3px;}
+#ModuleLmsTrackingBar > div.on {background:#fdca2f; opacity:0.8;}
+#ModuleLmsTrackingBar > div:last-child {width:100%;}
+
+#ModuleLmsInfoBar {background:#000; height:30px; box-shadow:0px 2px 2px rgba(0,0,0,0.25); margin-bottom:7px;}
+
+#ModuleLmsInfoBar button {border:0px; height:30px; padding:0px 8px; margin:0px 1px; background:transparent; cursor:pointer; color:#fff; vertical-align:top; outline:none;}
+#ModuleLmsInfoBar button.play, #ModuleLmsInfoBar button.pause {width:30px; text-align:center;}
+#ModuleLmsInfoBar button.pause {display:none;}
+#ModuleLmsInfoBar button.statusToggle {color:#ccc; float:right; border-right:1px;}
+#ModuleLmsInfoBar button.statusToggle:hover {color:#fff; background:rgba(255,255,255,0.2);}
+#ModuleLmsInfoBar button.statusToggle.on {color:#fdca2f; background:rgba(255,255,255,0.2) !important;}
+
+#ModuleLmsInfoBar span {display:inline-block; height:30px; line-height:30px; padding:0px 5px; font-size:12px; color:#ccc;}
+#ModuleLmsInfoBar span.timer {font-size:11px; font-family:Roboto;}
+#ModuleLmsInfoBar span.current {color:#fff; font-size:11px; font-family:Roboto;}
+#ModuleLmsInfoBar span.volume {width:100px;}
+#ModuleLmsInfoBar span.volume i {display:inline-block; width:20px; height:30px; vertical-align:top; line-height:30px; text-align:left; padding-left:10px;}
+
+#ModuleLmsInfoBar span.volume div.track {display:inline-block; width:60px; height:4px; padding:13px 0px; vertical-align:top; position:relative; cursor:pointer; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none;}
+#ModuleLmsInfoBar span.volume div.track div.bar {background:#777; height:4px;}
+#ModuleLmsInfoBar span.volume div.track div.bar div {background:#df2933; width:100%; height:4px;}
+#ModuleLmsInfoBar span.volume div.track div.pin {display:inline-block; width:5px; height:14px; background:#ddd; position:absolute; top:8px; left:100%; margin-left:-2px;}
+
+#ModuleLmsInfoBar button.speed {font-family:Roboto; font-size:11px; color:#ccc; border-right:1px;}
+#ModuleLmsInfoBar button.speed:hover {color:#fff; background:rgba(255,255,255,0.2);}
+#ModuleLmsInfoBar button.speed.on {color:#fdca2f; background:rgba(255,255,255,0.2) !important;}
+
+#ModuleLmsInfoBar button.fullScreen {font-size:12px; color:#ccc; border-right:1px; float:right;}
+#ModuleLmsInfoBar button.fullScreen:hover {color:#fff; background:rgba(255,255,255,0.2);}
+#ModuleLmsInfoBar button.fullScreen.on {color:#fdca2f; background:rgba(255,255,255,0.2) !important;}
+
+#ModuleLmsActionBar {display:table; width:100%; height:30px; table-layout:fixed;}
+#ModuleLmsActionBar > div {display:table-cell; height:30px; vertical-align:top;}
+#ModuleLmsActionBar > div.mentWrite {width:100%; padding:0px 5px; box-sizing:border-box;}
+/*
+#ModuleLmsInfoBar span.volume input {-webkit-appearance:none; width:60px; vertical-align:top; margin-top:10px;}
+#ModuleLmsInfoBar span.volume input::-webkit-slider-runnable-track {width:100%; height:4px; background:#777; border:none;}
+#ModuleLmsInfoBar span.volume input::-webkit-slider-thumb {-webkit-appearance:none; border:none; height:16px; width:16px; border-radius:50%; background:#e4232c; margin-top:-5px;}
+#ModuleLmsInfoBar span.volume input:focus {outline:none;}
+#ModuleLmsInfoBar span.volume input:focus::-webkit-slider-runnable-track {background:#ccc;}
+
+
+#ModuleLmsInfoBar span.volume input::-moz-range-track {width:100%; height:5px; background:#ddd; border:none; border-radius:3px;}
+#ModuleLmsInfoBar span.volume input::-moz-range-thumb {border:none; height:16px; width:16px; border-radius:50%; background:#e4232c;}
+#ModuleLmsInfoBar span.volume input:-moz-focusring{outline:1px solid white; outline-offset:-1px;}
+#ModuleLmsInfoBar span.volume input::-ms-track {width:300px; height:5px; background:transparent; border-color:transparent; border-width:6px 0; color:transparent;}
+#ModuleLmsInfoBar span.volume input::-ms-fill-lower {background:#777; border-radius:10px;}
+#ModuleLmsInfoBar span.volume input::-ms-fill-upper {background:#ddd; border-radius:10px;}
+#ModuleLmsInfoBar span.volume input::-ms-thumb {border:none; height:16px; width:16px; border-radius:50%; background:#e4232c;}
+#ModuleLmsInfoBar span.volume input:focus::-ms-fill-lower {background:#888;}
+#ModuleLmsInfoBar span.volume input:focus::-ms-fill-upper {background:#ccc;}
+*/
+
+#ModuleLmsStatusBar {position:absolute; height:65px; bottom:8px; display:table; width:100%; table-layout:fixed; background:rgba(255,255,255,0.5); z-index:5; font-size:0px;}
+#ModuleLmsStatusBar > div {display:table-cell; width:4px; height:65px; vertical-align:bottom; position:relative; cursor:pointer; font-size:0px;}
+#ModuleLmsStatusBar > div > div.bar {border-right:1px solid rgba(0,0,0,0.25); background:#fec09d; font-size:0px;}
+#ModuleLmsStatusBar > div > div.view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:70px; left:-13px; z-index:50; white-space:nowrap; background:#df2933;}
+#ModuleLmsStatusBar > div > div.view:after, #ModuleLmsStatusBar > div > div.view:before {bottom:100%; left:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsStatusBar > div > div.view:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:4px; margin-left:-4px;}
+#ModuleLmsStatusBar > div > div.view:before {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:5px; margin-left:-5px;}
+#ModuleLmsStatusBar > div.prev > div.bar {background:#fb4f1e; transition:background-color 1000ms linear;}
+#ModuleLmsStatusBar > div.over {background:#000; transition:background-color 1000ms linear;}
+#ModuleLmsStatusBar > div.over > div.bar {background:#000; transition:background-color 500ms linear;}
+#ModuleLmsStatusBar > div:last-child {width:100%;}
+#ModuleLmsStatusBar > div:last-child > div.bar {border:0px;}
+
+
+#ModuleLmsYoutubePlayer {position:relative; width:100%; padding-bottom:56.25%; height:0px; background:#000;}
+#ModuleLmsYoutubePlayer .message {position:absolute; width:100%; height:50px; line-height:25px; top:calc(50% - 25px); left:0px; text-align:center; font-size:12px; color:#ccc;}
+#ModuleLmsYoutubePlayer .btnClose {position:absolute; top:30px; left:30px; z-index:5;}
+#ModuleLmsYoutubePlayer .btnAfkCheck {position:absolute; right:10px; bottom:10px; z-index:10;}
+#ModuleLmsYoutubePlayer .disabled {position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:5; background:#000;}
+#ModuleLmsYoutubePlayer .cover {position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:5;}
+#ModuleLmsYoutubePlayerEmbeded {position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:1;}
+
+/*
+#ModuleLmsYoutubePlayerTrackerStatus {position:absolute; bottom:-64px; left:0px; display:table; width:100%; table-layout:fixed; background:#d5d5d5;}
+#ModuleLmsYoutubePlayerTrackerStatus > div {display:table-cell; width:3px; height:65px; vertical-align:top; position:relative; cursor:pointer;}
+#ModuleLmsYoutubePlayerTrackerStatus > div > div.bar {border-right:1px solid rgba(0,0,0,0.25); background:#fec09d;}
+#ModuleLmsYoutubePlayerTrackerStatus > div > div.view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:65px; left:-13px; z-index:50; white-space:nowrap; background:#df2933;}
+#ModuleLmsYoutubePlayerTrackerStatus > div > div.view:after, #ModuleLmsYoutubePlayerTrackerStatus > div > div.view:before {bottom:100%; left:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsYoutubePlayerTrackerStatus > div > div.view:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:4px; margin-left:-4px;}
+#ModuleLmsYoutubePlayerTrackerStatus > div > div.view:before {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:5px; margin-left:-5px;}
+#ModuleLmsYoutubePlayerTrackerStatus > div.prev > div.bar {background:#fb4f1e; transition:background-color 1000ms linear;}
+#ModuleLmsYoutubePlayerTrackerStatus > div.over {background:#000; transition:background-color 1000ms linear;}
+#ModuleLmsYoutubePlayerTrackerStatus > div.over > div.bar {background:#000; transition:background-color 500ms linear;}
+#ModuleLmsYoutubePlayerTrackerStatus > div:last-child {width:100%;}
+#ModuleLmsYoutubePlayerTrackerStatus > div:last-child > div.bar {border:0px;}
+#ModuleLmsYoutubePlayerTrackerBar {position:absolute; bottom:27px; left:0px; display:table; width:100%; table-layout:fixed; z-index:1; background:rgba(0,0,0,0.3);}
+#ModuleLmsYoutubePlayerTrackerBar > div {display:table-cell; width:3px; height:3px;}
+#ModuleLmsYoutubePlayerTrackerBar > div.on {background:#fdca2f; opacity:0.8;}
+#ModuleLmsYoutubePlayerTrackerBar > div:last-child {width:100%;}
+
+#ModuleLmsYoutubePlayer .mentIcon {width:20px; height:20px; position:absolute; left:0px; bottom:30px; border:2px solid #fff; z-index:5; margin-left:-12px; box-shadow:1px 1px 1px rgba(0,0,0,0.3); background-repeat:no-repeat; background-size:cover; background-position:50% 50%;}
+#ModuleLmsYoutubePlayer .mentIcon:after, #ModuleLmsYoutubePlayer .mentIcon:before {top:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsYoutubePlayer .mentIcon:after {border-color:rgba(228, 35, 44, 0); border-top-color:#fff; border-width:4px; margin-left:-4px;}
+#ModuleLmsYoutubePlayer .mentIcon:before {border-color:rgba(228, 35, 44, 0); border-top-color:#fff; border-width:5px; margin-left:-5px;}
+*/
+
+.modal .addItemModal .item {border:2px solid #ddd; cursor:pointer; box-sizing:border-box;}
+.modal .addItemModal .item .box {width:100%; padding-top:70%; height:30px; background-color:#f4f4f4; background-repeat:no-repeat; background-position:0 0; background-size:100% calc(100% - 30px); line-height:30px; text-align:center;}
+.modal .addItemModal .item .box[data-type=webpage] {background-image:url(../images/webpage.png);}
+.modal .addItemModal .item .box[data-type=youtube] {background-image:url(../images/youtube.png);}
+.modal .addItemModal .item .box[data-type=video] {background-image:url(../images/video.png);}
+.modal .addItemModal .item .box[data-type=slideshare] {background-image:url(../images/slideshare.png);}
+.modal .addItemModal .item .box[data-type=post] {background-image:url(../images/post.png);}
+.modal .addItemModal .item .box[data-type=upload] {background-image:url(../images/upload.png);}
+.modal .addItemModal .item.selected {border-color:#df2933;}
+
+.ModuleLmsDefault .writeLayout {display:table; width:100%; table-layout:fixed;}
+.ModuleLmsDefault .writeLayout .writeColumn {display:table-cell; vertical-align:top;}
+.ModuleLmsDefault .writeLayout .writeColumn:first-child {width:280px;}
+.ModuleLmsDefault .writeLayout .writeColumn:last-child {width:100%; border-left:1px solid #ddd; padding-right:5px;}
+
+.ModuleLmsDefault .writeLayout .photo-editor-container {width:270px;}
+.ModuleLmsDefault .writeLayout .photo-editor {margin-bottom:10px;}
+.ModuleLmsDefault .writeLayout .cropit-image-preview-container {width:210px; height:280px; margin:30px;}
+.ModuleLmsDefault .writeLayout .cropit-image-preview {width:210px !important; height:280px !important; padding-bottom:0px !important; cursor:move;}
+.ModuleLmsDefault .writeLayout input.cropit-image-input {display:none;}
+.ModuleLmsDefault .writeLayout .cropit-image-background {opacity:0.3; cursor:auto;}
+.ModuleLmsDefault .writeLayout .cropit-image-zoom-container {width:210px; height:20px; margin-left:30px; font-size:0px; text-align:center;}
+.ModuleLmsDefault .writeLayout .cropit-image-zoom-container span {width:20px; height:17px; display:inline-block; vertical-align:middle; line-height:17px; margin-top:3px;}
+.ModuleLmsDefault .writeLayout .cropit-image-zoom-container span.cropit-image-zoom-out i {font-size:10px; margin-top:2px;}
+.ModuleLmsDefault .writeLayout .cropit-image-zoom-container span.cropit-image-zoom-in i {font-size:14px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input {-webkit-appearance:none; border:1px solid white; width:140px; position:relative; z-index:10; vertical-align:middle; margin:0px 10px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-webkit-slider-runnable-track {width:100%; height:5px; background:#ddd; border:none; border-radius:3px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-webkit-slider-thumb {-webkit-appearance:none; border:none; height:16px; width:16px; border-radius:50%; background:#e4232c; margin-top:-5px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input:focus {outline:none;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input:focus::-webkit-slider-runnable-track {background:#ccc;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-moz-range-track {width:100%; height:5px; background:#ddd; border:none; border-radius:3px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-moz-range-thumb {border:none; height:16px; width:16px; border-radius:50%; background:#e4232c;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input:-moz-focusring{outline:1px solid white; outline-offset:-1px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-ms-track {width:300px; height:5px; background:transparent; border-color:transparent; border-width:6px 0; color:transparent;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-ms-fill-lower {background:#777; border-radius:10px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-ms-fill-upper {background:#ddd; border-radius:10px;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input::-ms-thumb {border:none; height:16px; width:16px; border-radius:50%; background:#e4232c;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input:focus::-ms-fill-lower {background:#888;}
+.ModuleLmsDefault .writeLayout input.cropit-image-zoom-input:focus::-ms-fill-upper {background:#ccc;}
+.ModuleLmsDefault .writeLayout .selectImage {display:block; width:210px; margin:0px auto;}
+
+.ModuleLmsDefault .writeLayout {border-bottom:1px solid #ccc; box-shadow:0px 3px 3px #f4f4f4;}
+
+@media (max-width:767px) {
+	.ModuleLmsDefault .viewPanel .itemPanel {display:block;}
+	.ModuleLmsDefault .viewPanel .itemPanel .coverPanel {display:block; width:auto;}
+	.ModuleLmsDefault .viewPanel .itemPanel .detailPanel {display:block; width:auto;}
+	.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail {padding:10px;}
+	.ModuleLmsDefault .viewPanel .itemPanel .detailPanel .detail .button button {display:block; width:100%;}
+	
+	.ModuleLmsDefault .writeLayout {display:block;}
+	.ModuleLmsDefault .writeLayout .writeColumn {display:block; width:100% !important; box-sizing:border-box;}
+	.ModuleLmsDefault .writeLayout .writeColumn:last-child {border:0px; border-top:2px solid #333; margin-top:20px;}
+	.ModuleLmsDefault .writeLayout .photo-editor-container {margin:0px auto;}
+}
+
+.ModuleLmsDefault .writeTitle {font-weight:bold; font-size:14px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleLmsDefault .writeTitle i {color:#df2933;}
+
+.ModuleLmsDefault .writeTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleLmsDefault .writeTable td.label {width:20%; background:#f4f4f4; font-size:12px; font-weight:bold; padding:0px 0px 0px 10px;}
+.ModuleLmsDefault .writeTable td.input {width:80%;}
+.ModuleLmsDefault .writeTable td.input .inputBlock, .ModuleLmsDefault .writeTable td.input .inputInline {font-size:12px; line-height:1.6; background:#fff; padding:8px; border-left:1px dotted #ccc;}
+.ModuleLmsDefault .writeTable tr.split {background:#e5e5e5; height:1px; font-size:0px;}
+.ModuleLmsDefault .writeTable tr.splitBottom {height:4px;}
+.ModuleLmsDefault .writeTable tr.splitBottom div {border-top:1px solid #ccc; background:#f4f4f4; height:3px;}
+
+.ModuleLmsDefault .writeTable .wysiwygFrame {background:#fff; margin-bottom:5px;}
+.ModuleLmsDefault .writeTable .boxDefault {margin-top:5px;}
+
+.ModuleLmsDefault .writeTable .selectedFile {display:none; line-height:1.6; padding:5px 0px;}
+.ModuleLmsDefault .writeTable button[data-role=upload] {display:none;}
+.ModuleLmsDefault .writeTable button[data-role=cancel] {display:none;}
+.ModuleLmsDefault .writeTable .progress {width:100%; height:20px; border-radius:3px; line-height:20px; margin:5px 0px; overflow:hidden; background:#ddd;}
+.ModuleLmsDefault .writeTable .progress .bar {width:100%; height:20px; background-color:#e4232c; background-image:linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent); -webkit-animation:progress-bar-stripes 2s linear infinite; -o-animation:progress-bar-stripes 2s linear infinite; animation:progress-bar-stripes 2s linear infinite; background-size:40px 40px;}
+@-webkit-keyframes .ModuleLmsDefault .writeTable .progress .bar {
+	from {background-position:40px 0;}
+	to {background-position:0 0;}
+}
+@-o-keyframes .ModuleLmsDefault .writeTable .progress .bar {
+	from {background-position:40px 0;}
+	to {background-position:0 0;}
+}
+@keyframes .ModuleLmsDefault .writeTable .progress .bar {
+	from {background-position:40px 0;}
+	to {background-position:0 0;}
+}}
+
+.ModuleLmsDefault .footerTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleLmsDefault .footerTable .buttonLeft {width:100%;}
+.ModuleLmsDefault .footerTable .buttonRight {width:100%; text-align:right;}
+
+.ModuleLmsDefault .searchTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse; margin-top:10px;}
+.ModuleLmsDefault .searchTable .searchKey {width:100px;}
+.ModuleLmsDefault .searchTable .searchKey .selectControl {width:95px;}
+.ModuleLmsDefault .searchTable .searchInput {width:100%;}
+.ModuleLmsDefault .searchTable .searchInput .liveSearchControl {width:100%; max-width:250px;}
+.ModuleLmsDefault .searchTable .buttonRight {width:90px; text-align:right;}
+
+.ModuleLmsDefault .pagination > li > a, .pagination > li > span {font-family:Roboto, defaultFont;}
+
+#ModuleLmsYoutubePlayer.fullScreen {width:100%; height:100%; padding:0px; margin:0px;}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerEmbeded {width:100%; height:calc(100% - 40px);}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsStatusBar {background:transparent;}
+
+/*
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerStatus {bottom:0px;}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerStatus > div > div.view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:-30px; left:-13px; z-index:50; white-space:nowrap; background:#df2933;}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerStatus > div > div.view:after, #ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerStatus > div > div.view:before {top:100%; left:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerStatus > div > div.view:after {border-color:rgba(228, 35, 44, 0); border-top-color:#df2933; border-width:4px; margin-left:-4px;}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerStatus > div > div.view:before {border-color:rgba(228, 35, 44, 0); border-top-color:#df2933; border-width:5px; margin-left:-5px;}
+#ModuleLmsYoutubePlayer.fullScreen #ModuleLmsYoutubePlayerTrackerBar {bottom:92px;}
+*/
+#ModuleLmsPlayingStatus > div {border:1px solid #ddd; margin:10px 0px; padding:5px; background:#f4f4f4;}
+#ModuleLmsPlayingStatus .item {display:table; width:100%; table-layout:fixed; font-size:0px;}
+#ModuleLmsPlayingStatus .item .icon {width:70px; height:70px; vertical-align:top; display:table-cell;}
+#ModuleLmsPlayingStatus .item .icon .fa {display:block; height:50px; line-height:50px; text-align:center; color:#fff; text-shadow:1px 1px 1px rgba(0,0,0,0.5); font-size:28px;}
+#ModuleLmsPlayingStatus .item .icon .name {height:20px; line-height:20px; background:rgba(0,0,0,0.5); color:#fff; font-size:12px; text-align:center;}
+#ModuleLmsPlayingStatus .item .icon.hit {background:#a2c5ff; color:#fff;}
+#ModuleLmsPlayingStatus .item .icon.pause {background:#493062; color:#fff;}
+#ModuleLmsPlayingStatus .item .icon.forward {background:#8bb515; color:#fff;}
+#ModuleLmsPlayingStatus .item .icon.backward {background:#eccac0; color:#fff;}
+
+#ModuleLmsPlayingStatus .item .detail {padding-left:5px; width:100%; height:70px; vertical-align:top; display:table-cell;}
+#ModuleLmsPlayingStatus .item .detail .description {height:25px; font-size:11px; line-height:25px; color:#666; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+#ModuleLmsPlayingStatus .item .graph .trackerBar {width:100%; height:5px; background:#ccc; display:table; table-layout:fixed;}
+#ModuleLmsPlayingStatus .item .graph .trackerBar > div {width:3px; height:5px; display:table-cell; vertical-align:top;}
+#ModuleLmsPlayingStatus .item .graph .trackerBar > div.on {background:#df2933;}
+#ModuleLmsPlayingStatus .item .graph .trackerBar > div:last-child {width:100%;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus {width:100%; height:40px; display:table; table-layout:fixed;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div {width:3px; display:table-cell; vertical-align:bottom; position:relative;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div > div.bar {border-right:1px solid rgba(0,0,0,0.25); background:#fec09d;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div:last-child {width:100%;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div:last-child > div.bar {border:0px;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div:hover {background:#000; transition:background-color 100ms linear;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div:hover > div.bar {background:#fb4f1e; transition:background-color 100ms linear;}
+
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div > div.view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:40px; left:-13px; z-index:50; white-space:nowrap; background:#df2933;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div > div.view:after, #ModuleLmsPlayingStatus .item .graph .trackerStatus > div > div.view:before {bottom:100%; left:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div > div.view:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:4px; margin-left:-4px;}
+#ModuleLmsPlayingStatus .item .graph .trackerStatus > div > div.view:before {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:5px; margin-left:-5px;}
+
+#ModuleLmsTrackingList .item {background:#f4f4f4; border:1px solid #ddd; padding:5px; display:table; width:100%; table-layout:fixed; box-sizing:border-box;}
+#ModuleLmsTrackingList .item .photo {display:table-cell; width:70px; height:70px; vertical-align:top; background-repeat:no-repeat; background-size:cover; background-position:50% 50%; font-size:0px;}
+#ModuleLmsTrackingList .item .photo .fa {display:block; height:50px; line-height:50px; text-align:center; color:#fff; text-shadow:1px 1px 1px rgba(0,0,0,0.5); font-size:24px;}
+#ModuleLmsTrackingList .item .photo .percent {height:20px; line-height:20px; background:rgba(0,0,0,0.5); color:#fff; font-family:Roboto; font-size:12px; text-align:center;}
+#ModuleLmsTrackingList .item .detail {padding-left:5px; display:table-cell; width:100%; height:50px; vertical-align:top;}
+#ModuleLmsTrackingList .item .detail .name {height:25px;font-size:0px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+#ModuleLmsTrackingList .item .detail .name span {display:inline-block; height:25px !important; line-height:25px !important; vertical-align:top;}
+#ModuleLmsTrackingList .item .detail .name span.ModuleMemberInfoNickname {font-size:15px;}
+#ModuleLmsTrackingList .item .detail .name span.reg_date {float:right; color:#666; font-family:Roboto; font-size:11px;}
+
+#ModuleLmsTrackingList .item.youtube .graph .trackerBar {width:100%; height:5px; background:#ccc; display:table; table-layout:fixed;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerBar > div {width:3px; height:5px; display:table-cell; vertical-align:top;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerBar > div.on {background:#df2933;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerBar > div:last-child {width:100%;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus {width:100%; height:40px; display:table; table-layout:fixed;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div {width:3px; display:table-cell; vertical-align:bottom; position:relative;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div > div.bar {border-right:1px solid rgba(0,0,0,0.25); background:#fec09d;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div:last-child {width:100%;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div:last-child > div.bar {border:0px;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div:hover {background:#000; transition:background-color 100ms linear;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div:hover > div.bar {background:#fb4f1e; transition:background-color 100ms linear;}
+
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div > div.view {cursor:default; height:30px; color:#fff; font-family:defaultFont; padding:0px 8px; line-height:30px; font-size:12px; position:absolute; top:40px; left:-13px; z-index:50; white-space:nowrap; background:#df2933;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div > div.view:after, #ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div > div.view:before {bottom:100%; left:15px; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div > div.view:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:4px; margin-left:-4px;}
+#ModuleLmsTrackingList .item.youtube .graph .trackerStatus > div > div.view:before {border-color:rgba(228, 35, 44, 0); border-bottom-color:#df2933; border-width:5px; margin-left:-5px;}
+
+/*
+	.ModuleLmsDefault .contextTitle {font-weight:bold; font-size:13px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleLmsDefault .contextTitle i {color:#df2933; font-size:12px;}
+.ModuleLmsDefault .contextTitle .count {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px;}
+
+.ModuleLmsDefault div.labels {font-size:0px;}
+.ModuleLmsDefault a.label {display:inline-block; background:#e4edf4; color:#3e6d8e; text-decoration:none; padding:0px 7px; height:20px; line-height:20px; margin:3px 3px 0px 0px; font-size:12px; border-radius:3px;}
+
+.ModuleLmsDefault .blankSpace {width:15px; height:15px;}
+
+.ModuleLmsDefault .listTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleLmsDefault .listTable thead tr {height:40px; border-bottom:1px solid #eee;}
+.ModuleLmsDefault .listTable thead tr th div {border-bottom:1px solid #ddd; height:40px; line-height:40px; font-weight:bold; color:#333; margin:0px;}
+.ModuleLmsDefault .listTable thead tr th.vote {width:56px; text-align:center;}
+.ModuleLmsDefault .listTable thead tr th.answer {width:56px; text-align:center;}
+.ModuleLmsDefault .listTable thead tr th.hit {Width:56px; text-align:center;}
+.ModuleLmsDefault .listTable thead tr th.title {width:100%; text-align:center;}
+
+.ModuleLmsDefault .listTable tbody tr {border-bottom:1px solid #eee;}
+.ModuleLmsDefault .listTable tbody tr td {padding:5px 0px; vertical-align:top;}
+.ModuleLmsDefault .listTable tbody tr td div.count {width:50px; height:50px; font-family:Rotobo, tahoma; background:#f4f4f4; margin:0 auto; text-align:center; font-size:11px; color:#666; border-radius:3px;}
+
+.ModuleLmsDefault .listTable tbody tr td div.count.hasReply {background:#666; color:#fff;}
+
+.ModuleLmsDefault .listTable tbody tr td div.count span {display:block; font-size:16px; text-align:center; padding:6px 0px 3px 0px;}
+.ModuleLmsDefault .listTable tbody tr td.title div.wrap {padding-left:10px;}
+.ModuleLmsDefault .listTable tbody tr td.title div.wrap a.title {display:block; line-height:1.6; font-size:15px; color:#07c; text-decoration:none; padding-top:3px;}
+.ModuleLmsDefault .listTable tbody tr td.title div.wrap a.title:hover {color:#30a7fc;}
+
+.ModuleLmsDefault .listTable tbody tr td.title div.wrap div.labels .author {float:right; height:20px; line-height:20px; padding-left:10px; color:#666; font-size:12px; margin-top:3px;}
+.ModuleLmsDefault .listTable tbody tr td.title div.wrap div.labels .author .reg_date {font-family:Roboto, tahoma; font-size:11px;}
+
+.ModuleLmsDefault .listTable tbody tr td.title span.ment {font-family:Roboto, tahoma; font-size:11px; color:#fa481d; font-weight:bold;}
+.ModuleLmsDefault .listTable tbody tr td.title span.image {font-size:0px; width:12px; height:30px; background:url(../images/icon_image.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleLmsDefault .listTable tbody tr td.title span.file {font-size:0px; width:12px; height:30px; background:url(../images/icon_file.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleLmsDefault .listTable tbody tr td.title span.video {font-size:0px; width:12px; height:30px; background:url(../images/icon_video.png); background-size:12px 12px; background-repeat:no-repeat; background-position:50% 50%;}
+.ModuleLmsDefault .listTable tbody tr td.title span.link {font-size:0px; width:12px; height:30px; background:url(../images/icon_link.png); background-size:16px 16px; background-repeat:no-repeat; background-position:50% 50%;}
+
+
+
+
+
+.ModuleLmsDefault .postDetail span.block {display:inline-block; height:30px; line-height:30px; vertical-align:middle; font-size:12px; margin-right:10px;}
+.ModuleLmsDefault .postDetail span.level {font-size:0px;}
+.ModuleLmsDefault .postDetail span.level span {display:inline-block; vertical-align:middle;}
+.ModuleLmsDefault .postDetail span.level span.text {font-size:11px; font-family:Roboto, defaultFont; color:#333; height:28px; line-height:28px; margin-top:2px;}
+.ModuleLmsDefault .postDetail span.level span.text b {color:#df2933;}
+.ModuleLmsDefault .postDetail span.level span.bar {margin:10px 5px; height:8px; border:1px solid #c7c7c7; width:80px; border-radius:4px; background:#e1e1e1; position:relative;}
+.ModuleLmsDefault .postDetail span.level span.percentage {margin:-1px; height:8px; border:1px solid #a6d592; width:50%; border-radius:4px; background:#e8f688; vertical-align:top;}
+.ModuleLmsDefault .postDetail span.level .levelDetail {display:none; position:absolute; z-index:150; width:200px; top:12px; left:-60px; text-align:center;}
+.ModuleLmsDefault .postDetail span.level .levelDetail span.arrowBox {position:relative; background:#e4232c; border:1px solid #fa481d; height:20px; line-height:20px; padding:0 5px; color:#fff; font-size:11px; display:inline-block; vertical-align:middle;}
+.ModuleLmsDefault .postDetail span.level .levelDetail span.arrowBox:after, .ModuleLmsDefault .postDetail span.level .levelDetail span.arrowBox:before {bottom:100%; left:50%; border:solid transparent; content:" "; height:0; width:0; position:absolute; pointer-events:none;}
+.ModuleLmsDefault .postDetail span.level .levelDetail span.arrowBox:after {border-color:rgba(228, 35, 44, 0); border-bottom-color:#e4232c; border-width:4px; margin-left:-4px;}
+.ModuleLmsDefault .postDetail span.level .levelDetail span.arrowBox:before {border-color:rgba(250, 72, 29, 0); border-bottom-color:#fa481d; border-width:5px; margin-left:-5px;}
+.ModuleLmsDefault .postDetail span.level:hover .levelDetail {display:block;}
+.ModuleLmsDefault .postDetail span.reg_date {font-family:Roboto, defaultFont; color:#666;}
+.ModuleLmsDefault .postDetail span.hit {color:#666;}
+.ModuleLmsDefault .postDetail span.hit b {font-family:Roboto, defaultFont; color:#333;}
+.ModuleLmsDefault .postDetail span.ment {color:#666;}
+.ModuleLmsDefault .postDetail span.ment b {font-family:Roboto, defaultFont; color:#fa481d;}
+.ModuleLmsDefault .postDetail span.good {color:#666;}
+.ModuleLmsDefault .postDetail span.good b {font-family:Roboto, defaultFont; color:#3b9ad8;}
+.ModuleLmsDefault .postDetail span.bad {color:#666;}
+.ModuleLmsDefault .postDetail span.bad b {font-family:Roboto, defaultFont; color:#fbb65c;}
+
+.ModuleLmsDefault .postArticle {border-bottom:2px solid #333;}
+
+.ModuleLmsDefault .postHeader {border-bottom:1px solid #ddd;}
+.ModuleLmsDefault .postHeader table {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleLmsDefault .postHeader table td.photo {width:70px;}
+.ModuleLmsDefault .postHeader table td.photo div.frame {width:53px; height:53px; border:1px solid #ddd; margin:5px;}
+.ModuleLmsDefault .postHeader table td.photo div.frame img.ModuleMemberInfoPhoto {width:53px; height:53px;}
+.ModuleLmsDefault .postHeader table td.info {width:100%;}
+.ModuleLmsDefault .postHeader table td.info h4 {font-weight:bold; font-size:16px; color:#333; height:27px; line-height:27px; margin-top:5px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.ModuleLmsDefault .postHeader table td.info .postDetail {height:30px; font-size:0px; margin-bottom:3px;}
+
+.ModuleLmsDefault .postContent {display:table; width:100%; table-layout:fixed; border-top:1px solid #eee;}
+.ModuleLmsDefault .postContent .voteArea {display:table-cell; width:60px; vertical-align:top;}
+.ModuleLmsDefault .postContent .voteArea button {display:block; width:100%; height:40px; border:0px; background:transparent; font-size:30px; text-align:center; cursor:pointer; color:#666;}
+.ModuleLmsDefault .postContent .voteArea button:hover {color:#df2933;}
+.ModuleLmsDefault .postContent .voteArea button .fa-spinner {color:#df2933; font-size:18px;}
+.ModuleLmsDefault .postContent .voteArea button.selected {color:#df2933;}
+.ModuleLmsDefault .postContent .voteArea div {height:20px; line-height:20px; text-align:center; color:#666; font-family:Roboto, tahoma; font-size:16px;}
+.ModuleLmsDefault .postContent .contentArea {display:table-cell; width:100%; vertical-align:top; padding-top:8px;}
+.ModuleLmsDefault .postContent .contentArea .wrapContent {font-size:13px; line-height:2.0;}
+.ModuleLmsDefault .postContent .contentArea {margin:5px; line-height:2.0;}
+
+
+.ModuleLmsDefault .mentList {background:#f4f4f4; padding:3px 8px;}
+.ModuleLmsDefault .mentList .empty {font-size:12px; height:80px; line-height:80px; text-align:center; color:#666;}
+.ModuleLmsDefault .mentList .deleteMent {background:#c10000; color:#ffff80; padding:10px; text-align:center;}
+.ModuleLmsDefault .mentList .mentItem {padding:5px 0px; border-bottom:1px dotted #c9c9c9;}
+.ModuleLmsDefault .mentList .mentItem:last-child {border-bottom:0px;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader {display:table; table-layout:fixed; width:100%;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader > div {display:table-cell; vertical-align:middle;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .photo {width:52px;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .photo div.frame {width:36px; height:36px; border:1px solid #ddd; margin:4px;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .photo div.frame img.ModuleMemberInfoPhoto {width:36px; height:36px;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .info {width:100%;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .info .author {height:18px; font-size:0px;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button {width:200px; text-align:right;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button {font-size:11px; height:20px; padding:0px 4px; border-radius:2px; cursor:pointer; border:1px solid #c2c8cf; background:#fff; color:#666;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button:hover, .ModuleLmsDefault .mentList .mentItem .button button:focus {background:#eaedf1;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.good span {font-family:Roboto, defaultFont; color:#3b9ad8; font-weight:bold;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.good[class*="selected"] {background:#df2933; color:#fff; border-color:#df2933;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.good[class*="selected"] span {color:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.bad span {font-family:Roboto, defaultFont; color:#fbb65c; font-weight:bold;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.bad[class*="selected"] {background:#df2933; color:#fff; border-color:#df2933;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.bad[class*="selected"] span {color:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.reply {border:1px solid #526ebb; color:#526ebb; background:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.reply:hover, .ModuleLmsDefault .mentList .mentItem .button button.reply:focus, .ModuleLmsDefault .mentList .mentItem .button button.reply[class*="selected"] {background:#526ebb; color:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.modify {border:1px solid #2b916d; color:#2b916d; background:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.modify:hover, .ModuleLmsDefault .mentList .mentItem .button button.modify:focus, .ModuleLmsDefault .mentList .mentItem .button button.modify[class*="selected"] {background:#2b916d; color:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.delete {border:1px solid #df2933; color:#df2933; background:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button button.delete:hover, .ModuleLmsDefault .mentList .mentItem .button button.delete:focus {background:#df2933; color:#fff;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button .fa-reply {transform:rotate(180deg); font-size:8px;}
+.ModuleLmsDefault .mentList .mentItem .mentHeader .button .ip {height:12px; line-height:12px; font-size:11px; font-family:Roboto, defaultFont; color:#999; padding-top:4px;}
+
+.ModuleLmsDefault .mentList .mentItem .mentBlock {position:relative;}
+.ModuleLmsDefault .mentList .mentItem .mentContext {padding:5px 0px 8px 32px; line-height:1.6;}
+
+.ModuleLmsDefault .mentList .mentParent .mentDepth {display:none;}
+.ModuleLmsDefault .mentList .mentChild .mentDepth {width:8px; height:8px; position:absolute; top:7px; left:-10px; border-left:1px solid #eb9472; border-bottom:1px solid #eb9472;}
+
+.ModuleLmsDefault .mentBottom {background:#f4f4f4;}
+.ModuleLmsDefault .mentPagination {margin:0px 8px; text-align:center; border-top:1px dotted #c9c9c9;}
+
+.ModuleLmsDefault .postMentWrite .mentWrite {border-top:2px solid #333;}
+.ModuleLmsDefault .postMentWrite .contextTitle {display:none;}
+.ModuleLmsDefault .mentWrite .btnGroup {margin:5px 0px; text-align:right;}
+.ModuleLmsDefault .mentWrite .wysiwygFrame {background:#fff;}
+.ModuleLmsDefault .mentList .mentWrite .wysiwygFrame {background:#f4f4f4;}
+.ModuleLmsDefault .mentList .mentWrite .fileBox {position:relative; border:1px solid #ccc; max-height:150px;}
+.ModuleLmsDefault .mentList .mentWrite .fileBox .fileList {max-height:150px; background:#e4e4e4; font-size:0px; overflow-y:scroll;}
+
+.ModuleLmsDefault .mentWrite .actionButton {text-align:right; padding-bottom:5px;}
+
+.ModuleLmsDefault .writeTitle {font-weight:bold; font-size:14px; color:#333; height:30px; line-height:30px; border-bottom:2px solid #333;}
+.ModuleLmsDefault .writeTitle i {color:#df2933;}
+
+.ModuleLmsDefault .writeTable {table-layout:fixed; width:100%; border-spacing:0px; border-collapse:collapse;}
+.ModuleLmsDefault .writeTable td.label {width:20%; background:#f4f4f4; font-size:12px; font-weight:bold; padding:0px 0px 0px 10px;}
+.ModuleLmsDefault .writeTable td.input {width:80%;}
+.ModuleLmsDefault .writeTable td.input .inputBlock, .ModuleLmsDefault .writeTable td.input .inputInline {font-size:12px; line-height:1.6; background:#fff; padding:8px; border-left:1px dotted #ccc;}
+.ModuleLmsDefault .writeTable tr.split {background:#e5e5e5; height:1px; font-size:0px;}
+.ModuleLmsDefault .writeTable tr.splitBottom {height:4px;}
+.ModuleLmsDefault .writeTable tr.splitBottom div {border-top:1px solid #ccc; background:#f4f4f4; height:3px;}
+
+.ModuleLmsDefault .writeTable .wysiwygFrame {background:#fff; margin-bottom:5px;}
+
+.ModuleLmsDefault ul.attachment {list-style:none;}
+.ModuleLmsDefault ul.attachment li {padding:3px 0px;}
+.ModuleLmsDefault ul.attachment li a {display:inline-block; text-decoration:none; color:#333; font-size:12px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; max-width:100%; height:20px; line-height:20px;}
+.ModuleLmsDefault ul.attachment li a:hover {color:#df2933;}
+.ModuleLmsDefault ul.attachment li a .filesize {font-family:Roboto, tahoma; color:#fa481d; font-weight:normal; font-size:11px; float:right; margin-left:5px; height:20px; line-height:20px;}
+
+@media (max-width:767px) {
+	.ModuleLmsDefault .mentList .mentItem .mentHeader {position:block;}
+	.ModuleLmsDefault .mentList .mentItem .mentHeader > div {display:inline-block;}
+	.ModuleLmsDefault .mentList .mentItem .mentHeader .info {width:auto;}
+	.ModuleLmsDefault .mentList .mentItem .mentHeader .button {display:block !important; width:100%;}
+	.ModuleLmsDefault .mentList .mentItem .mentHeader .button .ip {display:hidden;}
+}
+*/

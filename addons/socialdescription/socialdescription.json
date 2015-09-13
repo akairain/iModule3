@@ -1,0 +1,12 @@
+{
+	"title":{
+		"ko":"Social Description"
+	},
+	"target":{
+		"core":{
+			"afterGetContext":[
+				"doLayout"
+			]
+		}
+	}
+}
